@@ -4,10 +4,7 @@ import re
 from collections import namedtuple
 from typing import Iterable, Optional
 
-from .data import BibleBooks
-
-
-VerseRef = namedtuple("VerseRef", ("book", "chapter", "verse"))
+from .data import BibleBooks, VerseRef
 
 
 RX_WS = re.compile(r"\s*")

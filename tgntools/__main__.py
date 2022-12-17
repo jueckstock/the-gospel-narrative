@@ -3,5 +3,16 @@
 import argparse
 import sys
 
-print("hello, world!")
+from .refs import parse_ref
+from .data import BibleBooks
 
+
+bb = BibleBooks.fromfile()
+
+for line in sys.stdin:
+    line = line.strip()
+    if line.startswith("#"):
+        continue
+    for vr in parse_ref(line, bb):
+        print(bb[vr])
+    

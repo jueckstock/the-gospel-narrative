@@ -17,6 +17,7 @@ BIBLE_FILE = os.environ.get("BIBLE_FILE", _default_file)
 # Simple types and compiled regexen
 ###################################
 
+VerseRef = namedtuple("VerseRef", ("book", "chapter", "verse"))
 Verse = namedtuple("Verse", ("book", "chapter", "verse", "text"))
 
 RX_VLINE = re.compile(r"^([^|]+)\|([^|]+)\|([^|]+)\|\s+([^~]+)~\s*$")
@@ -47,7 +48,8 @@ class BibleBooks:
         cur_chapter = None
         last_verse = None
         for line in stream:
-            book, chapter, verse, _ = parse_verse_line(line)
+            book, chapter, verse, text = parse_verse_line(line)
+            self._verses[VerseRef(book, chapter, verse)] = text
             
             if chapter != cur_chapter:
                 if cur_chapter:
@@ -71,4 +73,7 @@ class BibleBooks:
 
     def last_verse(self, book: str, chapter: int) -> int:
         return self._books[book][chapter]
+
+    def __getitem__(self, ref: VerseRef) -> str:
+        return self._verses[ref]
 
