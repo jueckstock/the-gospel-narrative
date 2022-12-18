@@ -14,7 +14,7 @@ Gen 4:1-16,25,26
 
 # the ark, the flood, the post-flood covenant
 Gen 6:5-7:1,4,5,11-24
-Gen 8:1-5,13-9:11
+Gen 8:1-5,13-9:11,18-19
 
 # tongues/nations divided, Shem to Abram
 Gen 11:1-10,12,14,16,18,20,22,24,27-32
@@ -32,7 +32,7 @@ Gen 22:1-18
 Act 7:8-34
 
 # God to Moses; Moses vs. Pharoah; the Passover
-Exo 3:19-21; 5:1-2; 6:1; 7:1-5; 11:1,4-7; 12:1-14,29-33,40-42
+Exo 3:19-21; 5:1-2; 6:1; 7:1-5; 11:1,4-7; 12:1-7,11-12,29-33,40-42
 
 # Stephen's synopsis: Moses to David, the temple
 Act 7:37-46
@@ -41,21 +41,44 @@ Act 7:37-46
 Sa2 7:1-7,11-16,18-22
 
 # Isaiah: Immanuel to come, the Servant psalms, iniquities laid on Him
+# (Micah: birth in Bethlehem)
 Isa 7:1-4,10-14; 9:2-7
 Isa 40:1-5; 42:1-4; 49:1-6; 50:5-9
 Isa 52:13-53:12
-
-# Micah: birth in Bethlehem foretold
 Mic 5:1-4
 
+# The exile: Israel rejects God, brought into captivity
+Psa 106:4-13,19-21,24-25,34-39
+Ch2 36:14-21
+
 # Post-exile restoration: second temple built, greater glory for it
-Ezr 1:1-3
-Hag 1:12-2:9
+Ezr 1:1-3; 5:2; 3:10-13; 6:14-15
+Hag 2:1-9
 
 # Post-exile prophecy: Messiah to enter and reign, healing in His wings
-Zac 9:9-11,15-17
-Mal 3:15-4:6
+Zac 7:8; 9:9-11,15-16
+Mal 1:1; 3:13-4:5
 
 # NT
 #####
 
+# Angels announce the birth of John the Baptist and the Incarnation of the Christ
+Luk 1:5-17,23-57,65-80
+
+# The Birth of Christ, shepherds told, Simeon's prophecy, Wise Men, Herod's rage, escape
+Luk 2:1-35
+Mat 2:1-23
+
+# Christ's ministry commenced: John preaches repentance, Christ baptized, geneology, temptation
+Mat 3:1-3,11-17
+Luk 3:23-4:15
+
+# Christ proclaims the Gospel of Himself
+Joh 3:1-19
+Joh 6:37-40,44-58,66-71
+Joh 10:7-18,23-39
+Joh 11:1,3-7,17,20-29,32-53
+Joh 12:12-15,35-47
+
+# The Last Supper (echos of Passover)
+Joh 13:1
