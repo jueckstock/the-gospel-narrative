@@ -5,6 +5,8 @@ import sys
 
 from .refs import parse_ref
 from .data import BibleBooks, BIBLE_FILE
+from .ts.txt import Plaintext
+
 
 ap = argparse.ArgumentParser(description="Parse and typeset an edit list.")
 ap.add_argument("-b", "--bible-file", default=None, type=str,
@@ -16,6 +18,9 @@ args = ap.parse_args()
 
 bb = BibleBooks.fromfile(args.bible_file or BIBLE_FILE)
 
+ptts = Plaintext(100, 20, bb)
+ptts.start(sys.stdout)
+
 with open(args.edit_list, "rt", encoding="utf8") as fd:
     for i, line in enumerate(fd):
         line = line.strip()
@@ -24,7 +29,4 @@ with open(args.edit_list, "rt", encoding="utf8") as fd:
         if line.startswith("#"):
             continue
         for vr in parse_ref(line, bb):
-            if args.debug:
-                print(vr, end="\t")
-            print(bb[vr])
-        
+            ptts.feed(vr, bb[vr])

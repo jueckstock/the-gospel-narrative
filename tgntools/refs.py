@@ -74,19 +74,19 @@ def parse_ref(ref: str, bb: BibleBooks = BB) -> Iterable[VerseRef]:
         ps.require(":")
         verse = ps.read_num()
         
-        yield (book, chap, verse)
+        yield VerseRef(book, chap, verse)
 
         while not ps.eos():
             if ps.accept(","):
                 verse = ps.read_num()
-                yield (book, chap, verse)
+                yield VerseRef(book, chap, verse)
             elif ps.accept("-"):
                 end_span = ps.read_num()
                 if ps.accept(":"):
                     for cnum in range(chap, end_span):
                         last_verse = bb.last_verse(book, cnum)
                         for vnum in range(verse + 1, last_verse + 1):
-                            yield (book, cnum, vnum)
+                            yield VerseRef(book, cnum, vnum)
                         verse = 0
                     end_verse = ps.read_num()
                     chap = end_span
@@ -94,7 +94,7 @@ def parse_ref(ref: str, bb: BibleBooks = BB) -> Iterable[VerseRef]:
                     end_verse = end_span
 
                 for vnum in range(verse+1, end_verse+1):
-                    yield (book, chap, vnum)
+                    yield VerseRef(book, chap, vnum)
             elif ps.accept(";"):
                 break
             else:

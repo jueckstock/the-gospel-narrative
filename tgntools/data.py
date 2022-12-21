@@ -22,6 +22,76 @@ Verse = namedtuple("Verse", ("book", "chapter", "verse", "text"))
 
 RX_VLINE = re.compile(r"^([^|]+)\|([^|]+)\|([^|]+)\|\s+([^~]+)~\s*$")
 
+# TODO: move out to JSON formatted file that can be user-specified
+BOOK_NAMES = {
+    "Gen": "Genesis",
+    "Exo": "Exodus",
+    "Lev": "Leviticus",
+    "Num": "Numbers",
+    "Deu": "Deuteronomy",
+    "Jos": "Joshua",
+    "Jdg": "Judges",
+    "Rut": "Ruth",
+    "Sa1": "I Samuel",
+    "Sa2": "II Samuel",
+    "Kg1": "I Kings",
+    "Kg2": "II Kings",
+    "Ch1": "I Chronicles",
+    "Ch2": "II Chronicles",
+    "Ezr": "Ezra",
+    "Neh": "Nehemiah",
+    "Est": "Esther",
+    "Job": "Job",
+    "Psa": "Psalm", # not Psalms: for references, we mean a _single_ Psalm, not all of them
+    "Pro": "Proverbs",
+    "Ecc": "Ecclesiastes",
+    "Sol": "Song of Solomon",
+    "Isa": "Isaiah",
+    "Jer": "Jeremiah",
+    "Lam": "Lamentations",
+    "Eze": "Ezekiel",
+    "Dan": "Daniel",
+    "Hos": "Hosea",
+    "Joe": "Joel",
+    "Amo": "Amos",
+    "Oba": "Obadiah",
+    "Jon": "Jonah",
+    "Mic": "Micah",
+    "Nah": "Nahum",
+    "Hab": "Habbakkuk",
+    "Zep": "Zephaniah",
+    "Hag": "Haggai",
+    "Zac": "Zachariah",
+    "Mal": "Malachi",
+    "Mat": "Matthew",
+    "Mar": "Mark",
+    "Luk": "Luke",
+    "Joh": "John",
+    "Act": "Acts",
+    "Rom": "Romans",
+    "Co1": "I Corinthians",
+    "Co2": "II Corinthians",
+    "Gal": "Galatians",
+    "Eph": "Ephesians",
+    "Phi": "Phillippians",
+    "Col": "Colossians",
+    "Th1": "I Thessalonians",
+    "Th2": "II Thessalonians",
+    "Ti1": "I Timothy",
+    "Ti2": "II Timothy",
+    "Tit": "Titus",
+    "Plm": "Philemon",
+    "Heb": "Hebrews",
+    "Jam": "James",
+    "Pe1": "I Peter",
+    "Pe2": "II Peter",
+    "Jo1": "I John",
+    "Jo2": "II John",
+    "Jo3": "III John",
+    "Jde": "Jude",
+    "Rev": "Revelation",
+}
+
 
 def parse_verse_line(line: str) -> Verse:
     '''Parse a verse-database line of text into a Verse.
@@ -32,6 +102,21 @@ def parse_verse_line(line: str) -> Verse:
     if not m:
         raise SyntaxError(f"invalid verse line '{line}'")
     return Verse(m.group(1), int(m.group(2)), int(m.group(3)), m.group(4))
+
+
+# TODO: replace "BibleBooks" class with two classes: BibleMap and BibleText
+# BibleText will just load up a kjvdat.txt-format file for verse lookup by VerseRef
+# BibleMap will load from JSON (or other supported formats) a database of books
+# and chapter/verse limits allowing us to do things like:
+#   - tell if a reference is legal
+#   - tell if two references are contiguous
+#   - generate the sequence of all references between two valid, non-contiguous references
+#   - translate a book abbreviation into its "pretty name" (for references)
+
+# also TODO, modify __main__.py to become a git-like multi-tool:
+#   - "typeset" (the current functionality of taking an edit list, Bible data, and typesetter config and producing typeset output)
+#   - "map": new tool parsing a kjvdat.txt file and producing a "biblemap.json" file, containing a JSON object of book-abbrev -> { pretty_name: "", chapter_limits: [verses-in-chap1, ..]}, for use with the BibleMap class; the "pretty_name" will, of course, be left empty for human to fill in
+
 
 
 class BibleBooks:
@@ -73,6 +158,35 @@ class BibleBooks:
 
     def last_verse(self, book: str, chapter: int) -> int:
         return self._books[book][chapter]
+
+    def is_valid_ref(self, v: VerseRef) -> bool:
+        if v.book not in self._books:
+            return False
+        if v.chapter not in self._books[v.book]:
+            return False
+        if v.verse < 1 or v.verse > self._books[v.book][v.chapter]:
+            return False
+        return True
+
+    def get_next_ref(self, v: VerseRef) -> VerseRef:
+        inc_verse = VerseRef(v.book, v.chapter, v.verse + 1)
+        if self.is_valid_ref(inc_verse):
+            return inc_verse
+        inc_chapter = VerseRef(v.book, v.chapter + 1, 1)
+        if self.is_valid_ref(inc_chapter):
+            return inc_chapter
+        book_seq = list(self._books)
+        book_i = book_seq.find(v.book)
+        inc_book = VerseRef(book_seq[book_i + 1], 1, 1)
+        if self.is_valid_ref(inc_book):
+            return inc_book
+        raise StopIteration()
+
+    def refs_are_congituous(self, v1: VerseRef, v2: VerseRef) -> bool:
+        return self.get_next_ref(v1) == v2 
+
+    def pretty_name(self, abbrev: str) -> str:
+        return BOOK_NAMES[abbrev]
 
     def __getitem__(self, ref: VerseRef) -> str:
         return self._verses[ref]
