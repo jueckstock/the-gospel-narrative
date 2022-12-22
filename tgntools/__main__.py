@@ -2,9 +2,10 @@
 """
 import argparse
 import sys
+from typing import IO
 
 from .refs import parse_ref
-from .data import BibleBooks, BIBLE_FILE
+from .data import BibleBooks, BIBLE_FILE, VerseRef
 from .ts.txt import Plaintext
 
 
@@ -13,14 +14,31 @@ ap.add_argument("-b", "--bible-file", default=None, type=str,
                 help="Bible verse database file.")
 ap.add_argument("-d", "--debug", default=False, action="store_true",
                 help="DEBUG MODE: show edit list lines and verse references.")
+ap.add_argument("-r", "--raw", default=False, action="store_true",
+                help="RAW MODE: skip typesetting, just print verse text only.")
 ap.add_argument("edit_list", type=str, metavar="EDITS_FILE", help="Reference edit list file.")
 args = ap.parse_args()
 
 bb = BibleBooks.fromfile(args.bible_file or BIBLE_FILE)
 
-ptts = Plaintext(100, 20, bb)
-ptts.start(sys.stdout)
 
+class RawMode:
+    def start(self, stream: IO):
+        self._s = stream
+
+    def feed(self, this: VerseRef, text: str):
+        print(text, file=self._s)
+
+    def finish(self):
+        self._s.flush()
+
+
+if args.raw:
+    tts = RawMode()
+else:
+    tts = Plaintext(100, 20, bb)
+
+tts.start(sys.stdout)
 with open(args.edit_list, "rt", encoding="utf8") as fd:
     for i, line in enumerate(fd):
         line = line.strip()
@@ -29,4 +47,6 @@ with open(args.edit_list, "rt", encoding="utf8") as fd:
         if line.startswith("#"):
             continue
         for vr in parse_ref(line, bb):
-            ptts.feed(vr, bb[vr])
+            tts.feed(vr, bb[vr])
+
+tts.finish()

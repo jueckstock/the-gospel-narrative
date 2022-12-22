@@ -147,6 +147,8 @@ class BibleBooks:
                     max_verses = {}
                 cur_book = book
             last_verse = verse
+        max_verses[chapter] = last_verse
+        self._books[book] = max_verses
 
     @staticmethod
     def fromfile(filename: str = BIBLE_FILE) -> BibleBooks:
@@ -176,7 +178,7 @@ class BibleBooks:
         if self.is_valid_ref(inc_chapter):
             return inc_chapter
         book_seq = list(self._books)
-        book_i = book_seq.find(v.book)
+        book_i = book_seq.index(v.book)
         inc_book = VerseRef(book_seq[book_i + 1], 1, 1)
         if self.is_valid_ref(inc_book):
             return inc_book
