@@ -7,7 +7,7 @@ from typing import IO
 from .refs import parse_ref
 from .data import BibleBooks, BIBLE_FILE, VerseRef
 from .ts import Typesetter
-from .ts import txt
+from .ts import txt, html   # trigger autoregistration of all available typesetters
 
 
 ap = argparse.ArgumentParser(description="Parse and typeset an edit list.")
