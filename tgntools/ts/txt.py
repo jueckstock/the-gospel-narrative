@@ -10,21 +10,30 @@ reference text/numbers right-aligned to that point.
 Book name/chapter number are printed only when transitioning chapter/book.
 Non-contiguous verses are separated by a line of ". . ." characters in the text column.
 """
+import argparse
 import textwrap
-from typing import TextIO
+from typing import IO, List
 
 from ..data import VerseRef, BibleBooks
+from ..ts import Typesetter
 
-class Plaintext:
-    def __init__(self, max_column: int = 100, text_column: int = None, bb: BibleBooks = None):
-        self._bb = bb or BibleBooks.fromfile()
-        self._max_column = max_column
-        if text_column is not None:
-            self._text_column = text_column
+class Plaintext(Typesetter, name="plain"):
+    def __init__(self, argv: List[str], bb: BibleBooks):
+        ap = argparse.ArgumentParser(description="Fixed-column plain-text 'typesetter'")
+        ap.add_argument("-m", "--max-column", type=int, default=100, 
+                        help="Max width (in text columns) of output")
+        ap.add_argument("-v", "--verse-column", type=int, default=None, 
+                        help="Default text column for verse content (autocalculated by default)")
+        args = ap.parse_args(argv)
+
+        self._bb = bb 
+        self._max_column = args.max_column
+        if args.verse_column is not None:
+            self._text_column = args.verse_column
         else:
             longest_n = -1
             longest_key = None
-            for key, name in self._book_names.items():
+            for key, name in self._bb.pretty_names():
                 if len(name) > longest_n:
                     longest_n = len(name)
                     longest_key = key
@@ -38,9 +47,12 @@ class Plaintext:
     def _format_short_ref(self, verse) -> str:
         return f"{verse} - "
 
-    def start(self, target_stream: TextIO):
+    def start(self, target_stream: IO):
         self._last = VerseRef("n/a", 0, 0)
         self._out = target_stream
+
+    def debug(self, msg: str):
+        print(msg, file=self._out)
 
     def feed(self, this: VerseRef, text: str):
         indent = ' '*self._text_column

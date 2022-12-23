@@ -4,7 +4,7 @@ from __future__ import annotations
 import os
 import re
 from collections import defaultdict, namedtuple
-from typing import TextIO
+from typing import Iterable, List, TextIO, Tuple
 
 # Calculate the path to our default Bible
 # (unless overridden by ENVIRONMENT)
@@ -189,6 +189,9 @@ class BibleBooks:
 
     def pretty_name(self, abbrev: str) -> str:
         return BOOK_NAMES[abbrev]
+
+    def pretty_names(self) -> Iterable[Tuple[str, str]]:
+        return list(BOOK_NAMES.items())
 
     def __getitem__(self, ref: VerseRef) -> str:
         return self._verses[ref]
