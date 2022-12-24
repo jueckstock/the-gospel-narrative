@@ -10,7 +10,6 @@
                 padding: 2em;
                 background-color: whitesmoke;
                 margin: 2em auto;
-                width: 60%;
                 border-radius: 1em;
                 border-style: solid;
                 border-width: medium;
@@ -23,7 +22,6 @@
             
             div.tgn-verse-text {
                 float: right;
-                width: 80%;
             }
             
             div.tgn-verse-number {
@@ -48,12 +46,22 @@
             }
             
             hr.tgn-skip {
-                width: 80%;
-                margin-left: 20%;
                 border-top: dotted 1px lightgray;
             }
             
+            @media screen and (min-aspect-ratio: 4/3) {
+                body { font-size: 1.5vw; }
+                div.tgn-content { width: 60%; }
+                div.tgn-verse-text { width: 75%; }
+                hr.tgn-skip { width: 75%; margin-left: 25%; }
+            }
             
+            @media screen and (max-aspect-ratio: 1/1) {
+                body { font-size: 2vw; }
+                div.tgn-content { width: 85%; }
+                div.tgn-verse-text { width: 70%; }
+                hr.tgn-skip { width: 70%; margin-left: 30%; }
+            }
         </style>
     </head>
     <body>
@@ -720,8 +728,8 @@
             </div>
             <hr class="tgn-skip" />
             <div class="tgn-verse-box">
-                <div class="tgn-verse-text">And when the sun was going down, a deep sleep fell upon Abram; and, lo, an horror of great darkness fell upon him.</div>
-                <div class="tgn-verse-number">12</div>
+                <div class="tgn-verse-text">And Abram said, LORD God, what wilt thou give me, seeing I go childless, and the steward of my house is this Eliezer of Damascus?</div>
+                <div class="tgn-verse-number">2</div>
                 <div class="tgn-verse-chapter">15</div>
                 <div class="tgn-verse-book">Genesis</div>
             </div>

@@ -6,7 +6,6 @@ div.tgn-content {
     padding: 2em;
     background-color: whitesmoke;
     margin: 2em auto;
-    width: 60%;
     border-radius: 1em;
     border-style: solid;
     border-width: medium;
@@ -19,7 +18,6 @@ div.tgn-verse-box {
 
 div.tgn-verse-text {
     float: right;
-    width: 80%;
 }
 
 div.tgn-verse-number {
@@ -44,9 +42,19 @@ div.tgn-verse-book {
 }
 
 hr.tgn-skip {
-    width: 80%;
-    margin-left: 20%;
     border-top: dotted 1px lightgray;
 }
 
+@media screen and (min-aspect-ratio: 4/3) {
+    body { font-size: 1.5vw; }
+    div.tgn-content { width: 60%; }
+    div.tgn-verse-text { width: 75%; }
+    hr.tgn-skip { width: 75%; margin-left: 25%; }
+}
 
+@media screen and (max-aspect-ratio: 1/1) {
+    body { font-size: 2vw; }
+    div.tgn-content { width: 85%; }
+    div.tgn-verse-text { width: 70%; }
+    hr.tgn-skip { width: 70%; margin-left: 30%; }
+}
