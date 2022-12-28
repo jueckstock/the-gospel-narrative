@@ -1,0 +1,10 @@
+% define the indentation point for verse text
+\newdimen\verseindent \verseindent = 12pc
+
+\def\verse#1 #2:#3 #4{
+\noindent \leftskip = \verseindent % \parskip = .5\baselineskip
+\llap{\hbox to \verseindent{\hfil \bf #1 #2:\hbox to 2em{#3\hfil}}}%
+#4\par}
+
+\def\discontinuity{\leftskip=\verseindent \hrule}
+
