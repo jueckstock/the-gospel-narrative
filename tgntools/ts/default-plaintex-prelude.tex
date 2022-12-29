@@ -6,5 +6,10 @@
 \llap{\hbox to \verseindent{\hfil \bf #1 #2:\hbox to 2em{#3\hfil}}}%
 #4\par}
 
-\def\discontinuity{\leftskip=\verseindent \hrule}
+\def\discontinuity{%
+\vskip -.25\baselineskip%
+\moveright \verseindent \vtop{\hrule width \verseindent height .1pt\relax}%
+\vskip .25\baselineskip%
+}
+
 
