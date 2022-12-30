@@ -87,8 +87,11 @@ class PlainTeX(Typesetter, name="tex"):
     def feed(self, this: VerseRef, text: str):
         if self._bb.is_valid_ref(self._last) and not self._bb.refs_are_congituous(self._last, this):
             self._emit("\discontinuity")
-        pretty_book = self._bb.pretty_name(this.book)
-        self._emit(f"\\verse {{{pretty_book}}} {this.chapter}:{this.verse} {{{text}}}")
+            csname = "\\hardverse"
+        else:
+            csname = "\\verse"
+        pretty_book = texscape(self._bb.pretty_name(this.book))
+        self._emit(f"{csname} {{{pretty_book}}} {this.chapter}:{this.verse} {{{text}}}")
         self._last = this
     
     def finish(self):

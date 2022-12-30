@@ -1,15 +1,20 @@
 % define the indentation point for verse text
-\newdimen\verseindent \verseindent = 12pc
+\newdimen\verseindent \verseindent = 10pc
 
-\def\verse#1 #2:#3 #4{
+\newcount\versesonpage
+\versesonpage = 0
+
+\def\verse#1 #2:#3 #4{%
+\penalty-100%
 \noindent \leftskip = \verseindent % \parskip = .5\baselineskip
-\llap{\hbox to \verseindent{\hfil \bf #1 #2:\hbox to 2em{#3\hfil}}}%
-#4\par}
+\llap{\hbox to \verseindent{\hfil \bf #1 #2:#3\hskip .5em}}%
+\advance\versesonpage by 1%
+#4 {\it(\the\versesonpage)}\par\penalty-100}
 
-\def\discontinuity{%
-\vskip -.25\baselineskip%
-\moveright \verseindent \vtop{\hrule width \verseindent height .1pt\relax}%
-\vskip .25\baselineskip%
-}
+\def\hardverse{\verse}
 
+\def\discontinuity{\line{\hskip\verseindent\leaders\hrule height 3.1pt depth -3pt \hfil}}
 
+\output={%
+\global\versesonpage=0%
+\plainoutput}
