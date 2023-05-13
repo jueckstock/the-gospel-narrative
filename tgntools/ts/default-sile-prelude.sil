@@ -1,0 +1,10 @@
+\begin[papersize=statement]{document}
+
+\use[module=packages.color]
+\use[module=packages.raiselower]
+\font[size=10pt]
+
+\define[command=vref]{\raise[height=4pt]{\color[color=#dddddd]{\font[size=8pt]{\process}}}}
+\define[command=gap]{ … }
+
+

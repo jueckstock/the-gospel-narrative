@@ -44,6 +44,13 @@ class Typesetter:
         """
         raise NotImplementedError()
 
+    def paragraph(self):
+        """Indicate a natural paragraph break in the narrative to the underlying typesetter.
+
+        Default: NO-OP
+        """
+        pass
+
     def feed(self, this: VerseRef, text: str):
         """Add another verse reference/text to the typeset document.
         """
