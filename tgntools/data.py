@@ -92,6 +92,74 @@ BOOK_NAMES = {
     "Rev": "Revelation",
 }
 
+SHORT_BOOK_NAMES = {
+    "Gen": "Gen",
+    "Exo": "Ex",
+    "Lev": "Lev",
+    "Num": "Num",
+    "Deu": "Deu",
+    "Jos": "Jsh",
+    "Jdg": "Jdg",
+    "Rut": "Rut",
+    "Sa1": "1Sa",
+    "Sa2": "2Sa",
+    "Kg1": "1Ki",
+    "Kg2": "2Ki",
+    "Ch1": "1Ch",
+    "Ch2": "2Ch",
+    "Ezr": "Ezr",
+    "Neh": "Neh",
+    "Est": "Est",
+    "Job": "Job",
+    "Psa": "Ps",
+    "Pro": "Pv",
+    "Ecc": "Ecc",
+    "Sol": "Sng",
+    "Isa": "Isa",
+    "Jer": "Jer",
+    "Lam": "Lam",
+    "Eze": "Eze",
+    "Dan": "Dan",
+    "Hos": "Hos",
+    "Joe": "Jol",
+    "Amo": "Amo",
+    "Oba": "Oba",
+    "Jon": "Jon",
+    "Mic": "Mic",
+    "Nah": "Nah",
+    "Hab": "Hab",
+    "Zep": "Zph",
+    "Hag": "Hag",
+    "Zac": "Zac",
+    "Mal": "Mal",
+    "Mat": "Mt",
+    "Mar": "Mk",
+    "Luk": "Lk",
+    "Joh": "Jn",
+    "Act": "Act",
+    "Rom": "Rom",
+    "Co1": "1Co",
+    "Co2": "2Co",
+    "Gal": "Gal",
+    "Eph": "Eph",
+    "Phi": "Phi",
+    "Col": "Col",
+    "Th1": "1Th",
+    "Th2": "2Th",
+    "Ti1": "1Ti",
+    "Ti2": "2Ti",
+    "Tit": "Tt",
+    "Plm": "Phi",
+    "Heb": "Heb",
+    "Jam": "Jam",
+    "Pe1": "1Pe",
+    "Pe2": "2Pe",
+    "Jo1": "1Jn",
+    "Jo2": "2Jn",
+    "Jo3": "3Jn",
+    "Jde": "Jd",
+    "Rev": "Rev",
+}
 
 def parse_verse_line(line: str) -> Verse:
     '''Parse a verse-database line of text into a Verse.
@@ -171,6 +239,8 @@ class BibleBooks:
         return True
 
     def get_next_ref(self, v: VerseRef) -> VerseRef:
+        if not self.is_valid_ref(v):
+            return v
         inc_verse = VerseRef(v.book, v.chapter, v.verse + 1)
         if self.is_valid_ref(inc_verse):
             return inc_verse
@@ -184,14 +254,14 @@ class BibleBooks:
             return inc_book
         raise StopIteration()
 
-    def refs_are_congituous(self, v1: VerseRef, v2: VerseRef) -> bool:
+    def refs_are_contiguous(self, v1: VerseRef, v2: VerseRef) -> bool:
         return self.get_next_ref(v1) == v2 
 
-    def pretty_name(self, abbrev: str) -> str:
-        return BOOK_NAMES[abbrev]
+    def pretty_name(self, abbrev: str, short: bool = False) -> str:
+        return BOOK_NAMES[abbrev] if not short else SHORT_BOOK_NAMES[abbrev]
 
-    def pretty_names(self) -> Iterable[Tuple[str, str]]:
-        return list(BOOK_NAMES.items())
+    def pretty_names(self, short: bool = False) -> Iterable[Tuple[str, str]]:
+        return list(BOOK_NAMES.items()) if not short else list(SHORT_BOOK_NAMES.items())
 
     def __getitem__(self, ref: VerseRef) -> str:
         return self._verses[ref]

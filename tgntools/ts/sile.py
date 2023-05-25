@@ -90,14 +90,18 @@ class Sile(Typesetter, name="sile"):
         self._para = True
 
     def feed(self, this: VerseRef, text: str):
-        if self._bb.is_valid_ref(self._last) and not self._bb.refs_are_congituous(self._last, this):
-            if not self._para:
-                self._emit("\\gap{}", end="")
-            pretty_book = silescape(self._bb.pretty_name(this.book))
-            self._emit(f"\\vref{{{pretty_book} {this.chapter}:{this.verse}}}", end="")
-        else:
-            self._emit(f"\\vref{{{this.verse}}}", end="")
-        self._emit(f"\\nobreak{{}}{silescape(text)}\\goodbreak")
+        if not self._para and self._bb.is_valid_ref(self._last) and not self._bb.refs_are_contiguous(self._last, this):
+            self._emit("\\gap{}", end="")
+
+        full = False
+        self._emit("\\goodbreak{}\\vref{", end="")
+        if self._last.book != this.book:
+            pretty_book = silescape(self._bb.pretty_name(this.book, short=True))
+            self._emit(pretty_book, end=" ")
+            full = True
+        if full or self._last.chapter != this.chapter:
+            self._emit(f"{this.chapter}:", end="")
+        self._emit(f"{this.verse}}}\\nobreak{{}}{silescape(text)}")
         self._last = this
         self._para = False
     

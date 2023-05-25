@@ -1,0 +1,1197 @@
+\begin[papersize=statement]{document}
+
+\use[module=packages.counters]
+\use[module=packages.color]
+\use[module=packages.raiselower]
+\use[module=packages.pdf]
+\use[module=packages.tableofcontents]
+
+\define[command=vref]{\raise[height=4pt]{\color[color=#dddddd]{\font[size=8pt]{\process}}}}
+\define[command=gap]{ … }
+
+\define[command=heading]{%
+\par%
+\noindent%
+\begin{center}%
+  \font[size=24pt]%
+  \process%
+\end{center}%
+\medskip%
+}
+
+\font[size=10pt]
+\language[main=en]
+
+\set-counter[id=folio,value=1,display=roman]
+
+\tableofcontents
+\break
+
+\set-counter[id=folio,value=1,display=arabic]
+
+%\tocentry[level=1, number=0]{Prologue}
+\heading{Prologue}
+
+\begin{raggedright}
+\begin{em}
+\goodbreak{}\vref{Ps 2:1}\nobreak{}Why do the heathen rage, and the people imagine a vain thing?
+\goodbreak{}\vref{2}\nobreak{}The kings of the earth set themselves, and the rulers take counsel together, against the LORD, and against his anointed, saying,
+\goodbreak{}\vref{3}\nobreak{}Let us break their bands asunder, and cast away their cords from us.
+\goodbreak{}\vref{4}\nobreak{}He that sitteth in the heavens shall laugh: the LORD shall have them in derision.
+\goodbreak{}\vref{5}\nobreak{}Then shall he speak unto them in his wrath, and vex them in his sore displeasure.
+\goodbreak{}\vref{6}\nobreak{}Yet have I set my king upon my holy hill of Zion.
+\goodbreak{}\vref{7}\nobreak{}I will declare the decree: the LORD hath said unto me, Thou art my Son; this day have I begotten thee.
+\goodbreak{}\vref{8}\nobreak{}Ask of me, and I shall give thee the heathen for thine inheritance, and the uttermost parts of the earth for thy possession.
+\goodbreak{}\vref{9}\nobreak{}Thou shalt break them with a rod of iron; thou shalt dash them in pieces like a potter's vessel.
+\goodbreak{}\vref{10}\nobreak{}Be wise now therefore, O ye kings: be instructed, ye judges of the earth.
+\goodbreak{}\vref{11}\nobreak{}Serve the LORD with fear, and rejoice with trembling.
+\goodbreak{}\vref{12}\nobreak{}Kiss the Son, lest he be angry, and ye perish from the way, when his wrath is kindled but a little. Blessed are all they that put their trust in him.
+\end{em}
+\end{raggedright}
+
+\tocentry[level=1, number=1]{Creation & Blessing}
+\heading{Creation & Blessing}
+
+\goodbreak{}\vref{Gen 1:1}\nobreak{}In the beginning God created the heaven and the earth.
+\goodbreak{}\vref{2}\nobreak{}And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.
+\goodbreak{}\vref{3}\nobreak{}And God said, Let there be light: and there was light.
+\goodbreak{}\vref{4}\nobreak{}And God saw the light, that it was good: and God divided the light from the darkness.
+\goodbreak{}\vref{5}\nobreak{}And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.
+
+\goodbreak{}\vref{6}\nobreak{}And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.
+\goodbreak{}\vref{7}\nobreak{}And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.
+\goodbreak{}\vref{8}\nobreak{}And God called the firmament Heaven. And the evening and the morning were the second day.
+\goodbreak{}\vref{9}\nobreak{}And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.
+\goodbreak{}\vref{10}\nobreak{}And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.
+\goodbreak{}\vref{11}\nobreak{}And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.
+\goodbreak{}\vref{12}\nobreak{}And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good.
+\goodbreak{}\vref{13}\nobreak{}And the evening and the morning were the third day.
+\goodbreak{}\vref{14}\nobreak{}And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:
+\goodbreak{}\vref{15}\nobreak{}And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so.
+\goodbreak{}\vref{16}\nobreak{}And God made two great lights; the greater light to rule the day, and the lesser light to rule the night: he made the stars also.
+\goodbreak{}\vref{17}\nobreak{}And God set them in the firmament of the heaven to give light upon the earth,
+\goodbreak{}\vref{18}\nobreak{}And to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good.
+\goodbreak{}\vref{19}\nobreak{}And the evening and the morning were the fourth day.
+
+\goodbreak{}\vref{20}\nobreak{}And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.
+\goodbreak{}\vref{21}\nobreak{}And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good.
+\goodbreak{}\vref{22}\nobreak{}And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.
+\goodbreak{}\vref{23}\nobreak{}And the evening and the morning were the fifth day.
+\goodbreak{}\vref{24}\nobreak{}And God said, Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind: and it was so.
+\goodbreak{}\vref{25}\nobreak{}And God made the beast of the earth after his kind, and cattle after their kind, and every thing that creepeth upon the earth after his kind: and God saw that it was good.
+
+\goodbreak{}\vref{26}\nobreak{}And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.
+\goodbreak{}\vref{27}\nobreak{}So God created man in his own image, in the image of God created he him; male and female created he them.
+\goodbreak{}\vref{28}\nobreak{}And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.
+\goodbreak{}\vref{29}\nobreak{}And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat.
+\goodbreak{}\vref{30}\nobreak{}And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat: and it was so.
+\goodbreak{}\vref{31}\nobreak{}And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.
+
+\goodbreak{}\vref{2:1}\nobreak{}Thus the heavens and the earth were finished, and all the host of them.
+\goodbreak{}\vref{2}\nobreak{}And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.
+\goodbreak{}\vref{3}\nobreak{}And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made.
+\gap{}\goodbreak{}\vref{8}\nobreak{}And the LORD God planted a garden eastward in Eden; and there he put the man whom he had formed.
+\goodbreak{}\vref{9}\nobreak{}And out of the ground made the LORD God to grow every tree that is pleasant to the sight, and good for food; the tree of life also in the midst of the garden, and the tree of knowledge of good and evil.
+\gap{}\goodbreak{}\vref{15}\nobreak{}And the LORD God took the man, and put him into the garden of Eden to dress it and to keep it.
+\goodbreak{}\vref{16}\nobreak{}And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat:
+\goodbreak{}\vref{17}\nobreak{}But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.
+\goodbreak{}\vref{18}\nobreak{}And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him.
+\goodbreak{}\vref{19}\nobreak{}And out of the ground the LORD God formed every beast of the field, and every fowl of the air; and brought them unto Adam to see what he would call them: and whatsoever Adam called every living creature, that was the name thereof.
+\goodbreak{}\vref{20}\nobreak{}And Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field; but for Adam there was not found an help meet for him.
+\goodbreak{}\vref{21}\nobreak{}And the LORD God caused a deep sleep to fall upon Adam, and he slept: and he took one of his ribs, and closed up the flesh instead thereof;
+\goodbreak{}\vref{22}\nobreak{}And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man.
+\goodbreak{}\vref{23}\nobreak{}And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.
+\goodbreak{}\vref{24}\nobreak{}Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.
+\goodbreak{}\vref{25}\nobreak{}And they were both naked, the man and his wife, and were not ashamed.
+
+\tocentry[level=1, number=2]{Misery & Murder}
+\heading{Misery & Murder}
+
+\goodbreak{}\vref{3:1}\nobreak{}Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of every tree of the garden?
+\goodbreak{}\vref{2}\nobreak{}And the woman said unto the serpent, We may eat of the fruit of the trees of the garden:
+\goodbreak{}\vref{3}\nobreak{}But of the fruit of the tree which is in the midst of the garden, God hath said, Ye shall not eat of it, neither shall ye touch it, lest ye die.
+\goodbreak{}\vref{4}\nobreak{}And the serpent said unto the woman, Ye shall not surely die:
+\goodbreak{}\vref{5}\nobreak{}For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.
+
+\goodbreak{}\vref{6}\nobreak{}And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat.
+\goodbreak{}\vref{7}\nobreak{}And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons.
+\goodbreak{}\vref{8}\nobreak{}And they heard the voice of the LORD God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the LORD God amongst the trees of the garden.
+
+\goodbreak{}\vref{9}\nobreak{}And the LORD God called unto Adam, and said unto him, Where art thou?
+\goodbreak{}\vref{10}\nobreak{}And he said, I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself.
+\goodbreak{}\vref{11}\nobreak{}And he said, Who told thee that thou wast naked? Hast thou eaten of the tree, whereof I commanded thee that thou shouldest not eat?
+\goodbreak{}\vref{12}\nobreak{}And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat.
+
+\goodbreak{}\vref{13}\nobreak{}And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat.
+\goodbreak{}\vref{14}\nobreak{}And the LORD God said unto the serpent, Because thou hast done this, thou art cursed above all cattle, and above every beast of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:
+\goodbreak{}\vref{15}\nobreak{}And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.
+
+\goodbreak{}\vref{16}\nobreak{}Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee.
+\goodbreak{}\vref{17}\nobreak{}And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life;
+\goodbreak{}\vref{18}\nobreak{}Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field;
+\goodbreak{}\vref{19}\nobreak{}In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return.
+
+\goodbreak{}\vref{20}\nobreak{}And Adam called his wife's name Eve; because she was the mother of all living.
+\goodbreak{}\vref{21}\nobreak{}Unto Adam also and to his wife did the LORD God make coats of skins, and clothed them.
+\goodbreak{}\vref{22}\nobreak{}And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:
+\goodbreak{}\vref{23}\nobreak{}Therefore the LORD God sent him forth from the garden of Eden, to till the ground from whence he was taken.
+\goodbreak{}\vref{24}\nobreak{}So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.
+
+\goodbreak{}\vref{4:1}\nobreak{}And Adam knew Eve his wife; and she conceived, and bare Cain, and said, I have gotten a man from the LORD.
+\goodbreak{}\vref{2}\nobreak{}And she again bare his brother Abel. And Abel was a keeper of sheep, but Cain was a tiller of the ground.
+\goodbreak{}\vref{3}\nobreak{}And in process of time it came to pass, that Cain brought of the fruit of the ground an offering unto the LORD.
+\goodbreak{}\vref{4}\nobreak{}And Abel, he also brought of the firstlings of his flock and of the fat thereof. And the LORD had respect unto Abel and to his offering:
+\goodbreak{}\vref{5}\nobreak{}But unto Cain and to his offering he had not respect. And Cain was very wroth, and his countenance fell.
+\goodbreak{}\vref{6}\nobreak{}And the LORD said unto Cain, Why art thou wroth? and why is thy countenance fallen?
+\goodbreak{}\vref{7}\nobreak{}If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him.
+\goodbreak{}\vref{8}\nobreak{}And Cain talked with Abel his brother: and it came to pass, when they were in the field, that Cain rose up against Abel his brother, and slew him.
+
+\goodbreak{}\vref{9}\nobreak{}And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper?
+\goodbreak{}\vref{10}\nobreak{}And he said, What hast thou done? the voice of thy brother's blood crieth unto me from the ground.
+\goodbreak{}\vref{11}\nobreak{}And now art thou cursed from the earth, which hath opened her mouth to receive thy brother's blood from thy hand;
+\goodbreak{}\vref{12}\nobreak{}When thou tillest the ground, it shall not henceforth yield unto thee her strength; a fugitive and a vagabond shalt thou be in the earth.
+\goodbreak{}\vref{13}\nobreak{}And Cain said unto the LORD, My punishment is greater than I can bear.
+\goodbreak{}\vref{14}\nobreak{}Behold, thou hast driven me out this day from the face of the earth; and from thy face shall I be hid; and I shall be a fugitive and a vagabond in the earth; and it shall come to pass, that every one that findeth me shall slay me.
+\goodbreak{}\vref{15}\nobreak{}And the LORD said unto him, Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold. And the LORD set a mark upon Cain, lest any finding him should kill him.
+\goodbreak{}\vref{16}\nobreak{}And Cain went out from the presence of the LORD, and dwelt in the land of Nod, on the east of Eden.
+
+\gap{}\goodbreak{}\vref{25}\nobreak{}And Adam knew his wife again; and she bare a son, and called his name Seth: For God, said she, hath appointed me another seed instead of Abel, whom Cain slew.
+\goodbreak{}\vref{26}\nobreak{}And to Seth, to him also there was born a son; and he called his name Enos: then began men to call upon the name of the LORD.
+
+\tocentry[level=1, number=3]{Judgment & Preservation}
+\heading{Judgment & Preservation}
+
+\goodbreak{}\vref{6:5}\nobreak{}And God saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of his heart was only evil continually.
+\goodbreak{}\vref{6}\nobreak{}And it repented the LORD that he had made man on the earth, and it grieved him at his heart.
+\goodbreak{}\vref{7}\nobreak{}And the LORD said, I will destroy man whom I have created from the face of the earth; both man, and beast, and the creeping thing, and the fowls of the air; for it repenteth me that I have made them.
+\goodbreak{}\vref{8}\nobreak{}But Noah found grace in the eyes of the LORD.
+\goodbreak{}\vref{9}\nobreak{}These are the generations of Noah: Noah was a just man and perfect in his generations, and Noah walked with God.
+\goodbreak{}\vref{10}\nobreak{}And Noah begat three sons, Shem, Ham, and Japheth.
+
+\gap{}\goodbreak{}\vref{13}\nobreak{}And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth.
+\goodbreak{}\vref{14}\nobreak{}Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch.
+\goodbreak{}\vref{15}\nobreak{}And this is the fashion which thou shalt make it of: The length of the ark shall be three hundred cubits, the breadth of it fifty cubits, and the height of it thirty cubits.
+\goodbreak{}\vref{16}\nobreak{}A window shalt thou make to the ark, and in a cubit shalt thou finish it above; and the door of the ark shalt thou set in the side thereof; with lower, second, and third stories shalt thou make it.
+\goodbreak{}\vref{17}\nobreak{}And, behold, I, even I, do bring a flood of waters upon the earth, to destroy all flesh, wherein is the breath of life, from under heaven; and every thing that is in the earth shall die.
+\goodbreak{}\vref{18}\nobreak{}But with thee will I establish my covenant; and thou shalt come into the ark, thou, and thy sons, and thy wife, and thy sons' wives with thee.
+\goodbreak{}\vref{19}\nobreak{}And of every living thing of all flesh, two of every sort shalt thou bring into the ark, to keep them alive with thee; they shall be male and female.
+\goodbreak{}\vref{20}\nobreak{}Of fowls after their kind, and of cattle after their kind, of every creeping thing of the earth after his kind, two of every sort shall come unto thee, to keep them alive.
+\goodbreak{}\vref{21}\nobreak{}And take thou unto thee of all food that is eaten, and thou shalt gather it to thee; and it shall be for food for thee, and for them.
+
+\goodbreak{}\vref{22}\nobreak{}Thus did Noah; according to all that God commanded him, so did he.
+\goodbreak{}\vref{7:1}\nobreak{}And the LORD said unto Noah, Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation.
+\gap{}\goodbreak{}\vref{4}\nobreak{}For yet seven days, and I will cause it to rain upon the earth forty days and forty nights; and every living substance that I have made will I destroy from off the face of the earth.
+\goodbreak{}\vref{5}\nobreak{}And Noah did according unto all that the LORD commanded him.
+
+\gap{}\goodbreak{}\vref{11}\nobreak{}In the six hundredth year of Noah's life, in the second month, the seventeenth day of the month, the same day were all the fountains of the great deep broken up, and the windows of heaven were opened.
+\goodbreak{}\vref{12}\nobreak{}And the rain was upon the earth forty days and forty nights.
+\goodbreak{}\vref{13}\nobreak{}In the selfsame day entered Noah, and Shem, and Ham, and Japheth, the sons of Noah, and Noah's wife, and the three wives of his sons with them, into the ark;
+\goodbreak{}\vref{14}\nobreak{}They, and every beast after his kind, and all the cattle after their kind, and every creeping thing that creepeth upon the earth after his kind, and every fowl after his kind, every bird of every sort.
+\goodbreak{}\vref{15}\nobreak{}And they went in unto Noah into the ark, two and two of all flesh, wherein is the breath of life.
+\goodbreak{}\vref{16}\nobreak{}And they that went in, went in male and female of all flesh, as God had commanded him: and the LORD shut him in.
+
+\goodbreak{}\vref{17}\nobreak{}And the flood was forty days upon the earth; and the waters increased, and bare up the ark, and it was lift up above the earth.
+\goodbreak{}\vref{18}\nobreak{}And the waters prevailed, and were increased greatly upon the earth; and the ark went upon the face of the waters.
+\goodbreak{}\vref{19}\nobreak{}And the waters prevailed exceedingly upon the earth; and all the high hills, that were under the whole heaven, were covered.
+\goodbreak{}\vref{20}\nobreak{}Fifteen cubits upward did the waters prevail; and the mountains were covered.
+\goodbreak{}\vref{21}\nobreak{}And all flesh died that moved upon the earth, both of fowl, and of cattle, and of beast, and of every creeping thing that creepeth upon the earth, and every man:
+\goodbreak{}\vref{22}\nobreak{}All in whose nostrils was the breath of life, of all that was in the dry land, died.
+\goodbreak{}\vref{23}\nobreak{}And every living substance was destroyed which was upon the face of the ground, both man, and cattle, and the creeping things, and the fowl of the heaven; and they were destroyed from the earth: and Noah only remained alive, and they that were with him in the ark.
+\goodbreak{}\vref{24}\nobreak{}And the waters prevailed upon the earth an hundred and fifty days.
+
+\goodbreak{}\vref{8:1}\nobreak{}And God remembered Noah, and every living thing, and all the cattle that was with him in the ark: and God made a wind to pass over the earth, and the waters asswaged;
+\goodbreak{}\vref{2}\nobreak{}The fountains also of the deep and the windows of heaven were stopped, and the rain from heaven was restrained;
+\goodbreak{}\vref{3}\nobreak{}And the waters returned from off the earth continually: and after the end of the hundred and fifty days the waters were abated.
+\goodbreak{}\vref{4}\nobreak{}And the ark rested in the seventh month, on the seventeenth day of the month, upon the mountains of Ararat.
+\goodbreak{}\vref{5}\nobreak{}And the waters decreased continually until the tenth month: in the tenth month, on the first day of the month, were the tops of the mountains seen.
+\gap{}\goodbreak{}\vref{13}\nobreak{}And it came to pass in the six hundredth and first year, in the first month, the first day of the month, the waters were dried up from off the earth: and Noah removed the covering of the ark, and looked, and, behold, the face of the ground was dry.
+\goodbreak{}\vref{14}\nobreak{}And in the second month, on the seven and twentieth day of the month, was the earth dried.
+
+\goodbreak{}\vref{15}\nobreak{}And God spake unto Noah, saying,
+\goodbreak{}\vref{16}\nobreak{}Go forth of the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee.
+\goodbreak{}\vref{17}\nobreak{}Bring forth with thee every living thing that is with thee, of all flesh, both of fowl, and of cattle, and of every creeping thing that creepeth upon the earth; that they may breed abundantly in the earth, and be fruitful, and multiply upon the earth.
+\goodbreak{}\vref{18}\nobreak{}And Noah went forth, and his sons, and his wife, and his sons' wives with him:
+\goodbreak{}\vref{19}\nobreak{}Every beast, every creeping thing, and every fowl, and whatsoever creepeth upon the earth, after their kinds, went forth out of the ark.
+\goodbreak{}\vref{20}\nobreak{}And Noah builded an altar unto the LORD; and took of every clean beast, and of every clean fowl, and offered burnt offerings on the altar.
+\goodbreak{}\vref{21}\nobreak{}And the LORD smelled a sweet savour; and the LORD said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done.
+\goodbreak{}\vref{22}\nobreak{}While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease.
+
+\goodbreak{}\vref{9:1}\nobreak{}And God blessed Noah and his sons, and said unto them, Be fruitful, and multiply, and replenish the earth.
+\goodbreak{}\vref{2}\nobreak{}And the fear of you and the dread of you shall be upon every beast of the earth, and upon every fowl of the air, upon all that moveth upon the earth, and upon all the fishes of the sea; into your hand are they delivered.
+\goodbreak{}\vref{3}\nobreak{}Every moving thing that liveth shall be meat for you; even as the green herb have I given you all things.
+\goodbreak{}\vref{4}\nobreak{}But flesh with the life thereof, which is the blood thereof, shall ye not eat.
+\goodbreak{}\vref{5}\nobreak{}And surely your blood of your lives will I require; at the hand of every beast will I require it, and at the hand of man; at the hand of every man's brother will I require the life of man.
+\goodbreak{}\vref{6}\nobreak{}Whoso sheddeth man's blood, by man shall his blood be shed: for in the image of God made he man.
+\goodbreak{}\vref{7}\nobreak{}And you, be ye fruitful, and multiply; bring forth abundantly in the earth, and multiply therein.
+\goodbreak{}\vref{8}\nobreak{}And God spake unto Noah, and to his sons with him, saying,
+\goodbreak{}\vref{9}\nobreak{}And I, behold, I establish my covenant with you, and with your seed after you;
+\goodbreak{}\vref{10}\nobreak{}And with every living creature that is with you, of the fowl, of the cattle, and of every beast of the earth with you; from all that go out of the ark, to every beast of the earth.
+\goodbreak{}\vref{11}\nobreak{}And I will establish my covenant with you, neither shall all flesh be cut off any more by the waters of a flood; neither shall there any more be a flood to destroy the earth.
+\gap{}\goodbreak{}\vref{18}\nobreak{}And the sons of Noah, that went forth of the ark, were Shem, and Ham, and Japheth: and Ham is the father of Canaan.
+\goodbreak{}\vref{19}\nobreak{}These are the three sons of Noah: and of them was the whole earth overspread.
+
+\tocentry[level=1, number=4]{Confusion & Calling}
+\heading{Confusion & Calling}
+
+\goodbreak{}\vref{11:1}\nobreak{}And the whole earth was of one language, and of one speech.
+\goodbreak{}\vref{2}\nobreak{}And it came to pass, as they journeyed from the east, that they found a plain in the land of Shinar; and they dwelt there.
+\goodbreak{}\vref{3}\nobreak{}And they said one to another, Go to, let us make brick, and burn them thoroughly. And they had brick for stone, and slime had they for morter.
+\goodbreak{}\vref{4}\nobreak{}And they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth.
+
+\goodbreak{}\vref{5}\nobreak{}And the LORD came down to see the city and the tower, which the children of men builded.
+\goodbreak{}\vref{6}\nobreak{}And the LORD said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do.
+\goodbreak{}\vref{7}\nobreak{}Go to, let us go down, and there confound their language, that they may not understand one another's speech.
+\goodbreak{}\vref{8}\nobreak{}So the LORD scattered them abroad from thence upon the face of all the earth: and they left off to build the city.
+\goodbreak{}\vref{9}\nobreak{}Therefore is the name of it called Babel; because the LORD did there confound the language of all the earth: and from thence did the LORD scatter them abroad upon the face of all the earth.
+
+\goodbreak{}\vref{10}\nobreak{}These are the generations of Shem: Shem was an hundred years old, and begat Arphaxad two years after the flood:
+\gap{}\goodbreak{}\vref{12}\nobreak{}And Arphaxad lived five and thirty years, and begat Salah:
+\gap{}\goodbreak{}\vref{14}\nobreak{}And Salah lived thirty years, and begat Eber:
+\gap{}\goodbreak{}\vref{16}\nobreak{}And Eber lived four and thirty years, and begat Peleg:
+\gap{}\goodbreak{}\vref{18}\nobreak{}And Peleg lived thirty years, and begat Reu:
+\gap{}\goodbreak{}\vref{20}\nobreak{}And Reu lived two and thirty years, and begat Serug:
+\gap{}\goodbreak{}\vref{22}\nobreak{}And Serug lived thirty years, and begat Nahor:
+\gap{}\goodbreak{}\vref{24}\nobreak{}And Nahor lived nine and twenty years, and begat Terah:
+
+\gap{}\goodbreak{}\vref{27}\nobreak{}Now these are the generations of Terah: Terah begat Abram, Nahor, and Haran; and Haran begat Lot.
+\goodbreak{}\vref{28}\nobreak{}And Haran died before his father Terah in the land of his nativity, in Ur of the Chaldees.
+\goodbreak{}\vref{29}\nobreak{}And Abram and Nahor took them wives: the name of Abram's wife was Sarai; and the name of Nahor's wife, Milcah, the daughter of Haran, the father of Milcah, and the father of Iscah.
+\goodbreak{}\vref{30}\nobreak{}But Sarai was barren; she had no child.
+\goodbreak{}\vref{31}\nobreak{}And Terah took Abram his son, and Lot the son of Haran his son's son, and Sarai his daughter in law, his son Abram's wife; and they went forth with them from Ur of the Chaldees, to go into the land of Canaan; and they came unto Haran, and dwelt there.
+\goodbreak{}\vref{32}\nobreak{}And the days of Terah were two hundred and five years: and Terah died in Haran.
+
+\goodbreak{}\vref{12:1}\nobreak{}Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee:
+\goodbreak{}\vref{2}\nobreak{}And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing:
+\goodbreak{}\vref{3}\nobreak{}And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.
+\goodbreak{}\vref{4}\nobreak{}So Abram departed, as the LORD had spoken unto him; and Lot went with him: and Abram was seventy and five years old when he departed out of Haran.
+\goodbreak{}\vref{5}\nobreak{}And Abram took Sarai his wife, and Lot his brother's son, and all their substance that they had gathered, and the souls that they had gotten in Haran; and they went forth to go into the land of Canaan; and into the land of Canaan they came.
+\goodbreak{}\vref{6}\nobreak{}And Abram passed through the land unto the place of Sichem, unto the plain of Moreh. And the Canaanite was then in the land.
+
+\goodbreak{}\vref{7}\nobreak{}And the LORD appeared unto Abram, and said, Unto thy seed will I give this land: and there builded he an altar unto the LORD, who appeared unto him.
+\goodbreak{}\vref{8}\nobreak{}And he removed from thence unto a mountain on the east of Bethel, and pitched his tent, having Bethel on the west, and Hai on the east: and there he builded an altar unto the LORD, and called upon the name of the LORD.
+\gap{}\goodbreak{}\vref{13:12}\nobreak{}Abram dwelled in the land of Canaan, and Lot dwelled in the cities of the plain, and pitched his tent toward Sodom.
+\goodbreak{}\vref{13}\nobreak{}But the men of Sodom were wicked and sinners before the LORD exceedingly.
+\goodbreak{}\vref{14}\nobreak{}And the LORD said unto Abram, after that Lot was separated from him, Lift up now thine eyes, and look from the place where thou art northward, and southward, and eastward, and westward:
+\goodbreak{}\vref{15}\nobreak{}For all the land which thou seest, to thee will I give it, and to thy seed for ever.
+\goodbreak{}\vref{16}\nobreak{}And I will make thy seed as the dust of the earth: so that if a man can number the dust of the earth, then shall thy seed also be numbered.
+\goodbreak{}\vref{17}\nobreak{}Arise, walk through the land in the length of it and in the breadth of it; for I will give it unto thee.
+\goodbreak{}\vref{18}\nobreak{}Then Abram removed his tent, and came and dwelt in the plain of Mamre, which is in Hebron, and built there an altar unto the LORD.
+
+\tocentry[level=1, number=5]{Crisis & Covenent}
+\heading{Crisis & Covenent}
+
+\gap{}\goodbreak{}\vref{15:1}\nobreak{}After these things the word of the LORD came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward.
+\goodbreak{}\vref{2}\nobreak{}And Abram said, LORD God, what wilt thou give me, seeing I go childless, and the steward of my house is this Eliezer of Damascus?
+\goodbreak{}\vref{3}\nobreak{}And Abram said, Behold, to me thou hast given no seed: and, lo, one born in my house is mine heir.
+\goodbreak{}\vref{4}\nobreak{}And, behold, the word of the LORD came unto him, saying, This shall not be thine heir; but he that shall come forth out of thine own bowels shall be thine heir.
+\goodbreak{}\vref{5}\nobreak{}And he brought him forth abroad, and said, Look now toward heaven, and tell the stars, if thou be able to number them: and he said unto him, So shall thy seed be.
+\goodbreak{}\vref{6}\nobreak{}And he believed in the LORD; and he counted it to him for righteousness.
+\goodbreak{}\vref{7}\nobreak{}And he said unto him, I am the LORD that brought thee out of Ur of the Chaldees, to give thee this land to inherit it.
+
+\goodbreak{}\vref{8}\nobreak{}And he said, LORD God, whereby shall I know that I shall inherit it?
+\goodbreak{}\vref{9}\nobreak{}And he said unto him, Take me an heifer of three years old, and a she goat of three years old, and a ram of three years old, and a turtledove, and a young pigeon.
+\goodbreak{}\vref{10}\nobreak{}And he took unto him all these, and divided them in the midst, and laid each piece one against another: but the birds divided he not.
+\goodbreak{}\vref{11}\nobreak{}And when the fowls came down upon the carcases, Abram drove them away.
+\goodbreak{}\vref{12}\nobreak{}And when the sun was going down, a deep sleep fell upon Abram; and, lo, an horror of great darkness fell upon him.
+\goodbreak{}\vref{13}\nobreak{}And he said unto Abram, Know of a surety that thy seed shall be a stranger in a land that is not their's, and shall serve them; and they shall afflict them four hundred years;
+\goodbreak{}\vref{14}\nobreak{}And also that nation, whom they shall serve, will I judge: and afterward shall they come out with great substance.
+\goodbreak{}\vref{15}\nobreak{}And thou shalt go to thy fathers in peace; thou shalt be buried in a good old age.
+\goodbreak{}\vref{16}\nobreak{}But in the fourth generation they shall come hither again: for the iniquity of the Amorites is not yet full.
+\goodbreak{}\vref{17}\nobreak{}And it came to pass, that, when the sun went down, and it was dark, behold a smoking furnace, and a burning lamp that passed between those pieces.
+\goodbreak{}\vref{18}\nobreak{}In the same day the LORD made a covenant with Abram, saying, Unto thy seed have I given this land, from the river of Egypt unto the great river, the river Euphrates:
+
+\goodbreak{}\vref{16:1}\nobreak{}Now Sarai Abram's wife bare him no children: and she had an handmaid, an Egyptian, whose name was Hagar.
+\goodbreak{}\vref{2}\nobreak{}And Sarai said unto Abram, Behold now, the LORD hath restrained me from bearing: I pray thee, go in unto my maid; it may be that I may obtain children by her. And Abram hearkened to the voice of Sarai.
+\goodbreak{}\vref{3}\nobreak{}And Sarai Abram's wife took Hagar her maid the Egyptian, after Abram had dwelt ten years in the land of Canaan, and gave her to her husband Abram to be his wife.
+\gap{}\goodbreak{}\vref{15}\nobreak{}And Hagar bare Abram a son: and Abram called his son's name, which Hagar bare, Ishmael.
+\goodbreak{}\vref{16}\nobreak{}And Abram was fourscore and six years old, when Hagar bare Ishmael to Abram.
+
+\goodbreak{}\vref{17:1}\nobreak{}And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect.
+\goodbreak{}\vref{2}\nobreak{}And I will make my covenant between me and thee, and will multiply thee exceedingly.
+\goodbreak{}\vref{3}\nobreak{}And Abram fell on his face: and God talked with him, saying,
+\goodbreak{}\vref{4}\nobreak{}As for me, behold, my covenant is with thee, and thou shalt be a father of many nations.
+\goodbreak{}\vref{5}\nobreak{}Neither shall thy name any more be called Abram, but thy name shall be Abraham; for a father of many nations have I made thee.
+\gap{}\goodbreak{}\vref{15}\nobreak{}And God said unto Abraham, As for Sarai thy wife, thou shalt not call her name Sarai, but Sarah shall her name be.
+\goodbreak{}\vref{16}\nobreak{}And I will bless her, and give thee a son also of her: yea, I will bless her, and she shall be a mother of nations; kings of people shall be of her.
+\goodbreak{}\vref{17}\nobreak{}Then Abraham fell upon his face, and laughed, and said in his heart, Shall a child be born unto him that is an hundred years old? and shall Sarah, that is ninety years old, bear?
+\goodbreak{}\vref{18}\nobreak{}And Abraham said unto God, O that Ishmael might live before thee!
+\goodbreak{}\vref{19}\nobreak{}And God said, Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac: and I will establish my covenant with him for an everlasting covenant, and with his seed after him.
+
+\gap{}\goodbreak{}\vref{21:1}\nobreak{}And the LORD visited Sarah as he had said, and the LORD did unto Sarah as he had spoken.
+\goodbreak{}\vref{2}\nobreak{}For Sarah conceived, and bare Abraham a son in his old age, at the set time of which God had spoken to him.
+\goodbreak{}\vref{3}\nobreak{}And Abraham called the name of his son that was born unto him, whom Sarah bare to him, Isaac.
+\gap{}\goodbreak{}\vref{5}\nobreak{}And Abraham was an hundred years old, when his son Isaac was born unto him.
+\goodbreak{}\vref{6}\nobreak{}And Sarah said, God hath made me to laugh, so that all that hear will laugh with me.
+\goodbreak{}\vref{7}\nobreak{}And she said, Who would have said unto Abraham, that Sarah should have given children suck? for I have born him a son in his old age.
+
+\goodbreak{}\vref{22:1}\nobreak{}And it came to pass after these things, that God did tempt Abraham, and said unto him, Abraham: and he said, Behold, here I am.
+\goodbreak{}\vref{2}\nobreak{}And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of.
+\goodbreak{}\vref{3}\nobreak{}And Abraham rose up early in the morning, and saddled his ass, and took two of his young men with him, and Isaac his son, and clave the wood for the burnt offering, and rose up, and went unto the place of which God had told him.
+\goodbreak{}\vref{4}\nobreak{}Then on the third day Abraham lifted up his eyes, and saw the place afar off.
+\goodbreak{}\vref{5}\nobreak{}And Abraham said unto his young men, Abide ye here with the ass; and I and the lad will go yonder and worship, and come again to you.
+\goodbreak{}\vref{6}\nobreak{}And Abraham took the wood of the burnt offering, and laid it upon Isaac his son; and he took the fire in his hand, and a knife; and they went both of them together.
+\goodbreak{}\vref{7}\nobreak{}And Isaac spake unto Abraham his father, and said, My father: and he said, Here am I, my son. And he said, Behold the fire and the wood: but where is the lamb for a burnt offering?
+\goodbreak{}\vref{8}\nobreak{}And Abraham said, My son, God will provide himself a lamb for a burnt offering: so they went both of them together.
+
+\goodbreak{}\vref{9}\nobreak{}And they came to the place which God had told him of; and Abraham built an altar there, and laid the wood in order, and bound Isaac his son, and laid him on the altar upon the wood.
+\goodbreak{}\vref{10}\nobreak{}And Abraham stretched forth his hand, and took the knife to slay his son.
+\goodbreak{}\vref{11}\nobreak{}And the angel of the LORD called unto him out of heaven, and said, Abraham, Abraham: and he said, Here am I.
+\goodbreak{}\vref{12}\nobreak{}And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.
+\goodbreak{}\vref{13}\nobreak{}And Abraham lifted up his eyes, and looked, and behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering in the stead of his son.
+\goodbreak{}\vref{14}\nobreak{}And Abraham called the name of that place Jehovahjireh: as it is said to this day, In the mount of the LORD it shall be seen.
+\goodbreak{}\vref{15}\nobreak{}And the angel of the LORD called unto Abraham out of heaven the second time,
+\goodbreak{}\vref{16}\nobreak{}And said, By myself have I sworn, saith the LORD, for because thou hast done this thing, and hast not withheld thy son, thine only son:
+\goodbreak{}\vref{17}\nobreak{}That in blessing I will bless thee, and in multiplying I will multiply thy seed as the stars of the heaven, and as the sand which is upon the sea shore; and thy seed shall possess the gate of his enemies;
+\goodbreak{}\vref{18}\nobreak{}And in thy seed shall all the nations of the earth be blessed; because thou hast obeyed my voice.
+
+\tocentry[level=1, number=6]{Bondage & Exodus}
+\heading{Bondage & Exodus}
+
+\goodbreak{}\vref{Act 7:8b}\nobreak{}[S]o Abraham begat Isaac, and circumcised him the eighth day; and Isaac begat Jacob; and Jacob begat the twelve patriarchs.
+\goodbreak{}\vref{9}\nobreak{}And the patriarchs, moved with envy, sold Joseph into Egypt: but God was with him,
+\goodbreak{}\vref{10}\nobreak{}And delivered him out of all his afflictions, and gave him favour and wisdom in the sight of Pharaoh king of Egypt; and he made him governor over Egypt and all his house.
+\goodbreak{}\vref{11}\nobreak{}Now there came a dearth over all the land of Egypt and Chanaan, and great affliction: and our fathers found no sustenance.
+\goodbreak{}\vref{12}\nobreak{}But when Jacob heard that there was corn in Egypt, he sent out our fathers first.
+\goodbreak{}\vref{13}\nobreak{}And at the second time Joseph was made known to his brethren; and Joseph's kindred was made known unto Pharaoh.
+\goodbreak{}\vref{14}\nobreak{}Then sent Joseph, and called his father Jacob to him, and all his kindred, threescore and fifteen souls.
+\goodbreak{}\vref{15}\nobreak{}So Jacob went down into Egypt, and died, he, and our fathers,
+\goodbreak{}\vref{16}\nobreak{}And were carried over into Sychem, and laid in the sepulchre that Abraham bought for a sum of money of the sons of Emmor the father of Sychem.
+\goodbreak{}\vref{17}\nobreak{}But when the time of the promise drew nigh, which God had sworn to Abraham, the people grew and multiplied in Egypt,
+\goodbreak{}\vref{18}\nobreak{}Till another king arose, which knew not Joseph.
+\goodbreak{}\vref{19}\nobreak{}The same dealt subtilly with our kindred, and evil entreated our fathers, so that they cast out their young children, to the end they might not live.
+
+\goodbreak{}\vref{20}\nobreak{}In which time Moses was born, and was exceeding fair, and nourished up in his father's house three months:
+\goodbreak{}\vref{21}\nobreak{}And when he was cast out, Pharaoh's daughter took him up, and nourished him for her own son.
+\goodbreak{}\vref{22}\nobreak{}And Moses was learned in all the wisdom of the Egyptians, and was mighty in words and in deeds.
+\goodbreak{}\vref{23}\nobreak{}And when he was full forty years old, it came into his heart to visit his brethren the children of Israel.
+\goodbreak{}\vref{24}\nobreak{}And seeing one of them suffer wrong, he defended him, and avenged him that was oppressed, and smote the Egyptian:
+\goodbreak{}\vref{25}\nobreak{}For he supposed his brethren would have understood how that God by his hand would deliver them: but they understood not.
+\goodbreak{}\vref{26}\nobreak{}And the next day he shewed himself unto them as they strove, and would have set them at one again, saying, Sirs, ye are brethren; why do ye wrong one to another?
+\goodbreak{}\vref{27}\nobreak{}But he that did his neighbour wrong thrust him away, saying, Who made thee a ruler and a judge over us?
+\goodbreak{}\vref{28}\nobreak{}Wilt thou kill me, as thou diddest the Egyptian yesterday?
+\goodbreak{}\vref{29}\nobreak{}Then fled Moses at this saying, and was a stranger in the land of Madian, where he begat two sons.
+
+\goodbreak{}\vref{30}\nobreak{}And when forty years were expired, there appeared to him in the wilderness of mount Sina an angel of the Lord in a flame of fire in a bush.
+\goodbreak{}\vref{31}\nobreak{}When Moses saw it, he wondered at the sight: and as he drew near to behold it, the voice of the LORD came unto him,
+\goodbreak{}\vref{32}\nobreak{}Saying, I am the God of thy fathers, the God of Abraham, and the God of Isaac, and the God of Jacob. Then Moses trembled, and durst not behold.
+\goodbreak{}\vref{33}\nobreak{}Then said the Lord to him, Put off thy shoes from thy feet: for the place where thou standest is holy ground.
+\goodbreak{}\vref{34}\nobreak{}I have seen, I have seen the affliction of my people which is in Egypt, and I have heard their groaning, and am come down to deliver them. And now come, I will send thee into Egypt.
+\goodbreak{}\vref{Ex 3:19}\nobreak{}And I am sure that the king of Egypt will not let you go, no, not by a mighty hand.
+\goodbreak{}\vref{20}\nobreak{}And I will stretch out my hand, and smite Egypt with all my wonders which I will do in the midst thereof: and after that he will let you go.
+\goodbreak{}\vref{21}\nobreak{}And I will give this people favour in the sight of the Egyptians: and it shall come to pass, that, when ye go, ye shall not go empty.\gap{}
+
+\goodbreak{}\vref{5:1}\nobreak{}And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness.
+\goodbreak{}\vref{2}\nobreak{}And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go.
+\gap{}\goodbreak{}\vref{6:1}\nobreak{}Then the LORD said unto Moses, Now shalt thou see what I will do to Pharaoh: for with a strong hand shall he let them go, and with a strong hand shall he drive them out of his land.
+\gap{}\goodbreak{}\vref{7:1}\nobreak{}And the LORD said unto Moses, See, I have made thee a god to Pharaoh: and Aaron thy brother shall be thy prophet.
+\goodbreak{}\vref{2}\nobreak{}Thou shalt speak all that I command thee: and Aaron thy brother shall speak unto Pharaoh, that he send the children of Israel out of his land.
+\goodbreak{}\vref{3}\nobreak{}And I will harden Pharaoh's heart, and multiply my signs and my wonders in the land of Egypt.
+\goodbreak{}\vref{4}\nobreak{}But Pharaoh shall not hearken unto you, that I may lay my hand upon Egypt, and bring forth mine armies, and my people the children of Israel, out of the land of Egypt by great judgments.
+\goodbreak{}\vref{5}\nobreak{}And the Egyptians shall know that I am the LORD, when I stretch forth mine hand upon Egypt, and bring out the children of Israel from among them.\gap{}
+
+\goodbreak{}\vref{11:1}\nobreak{}And the LORD said unto Moses, Yet will I bring one plague more upon Pharaoh, and upon Egypt; afterwards he will let you go hence: when he shall let you go, he shall surely thrust you out hence altogether.
+\gap{}\goodbreak{}\vref{4}\nobreak{}And Moses said, Thus saith the LORD, About midnight will I go out into the midst of Egypt:
+\goodbreak{}\vref{5}\nobreak{}And all the firstborn in the land of Egypt shall die, from the first born of Pharaoh that sitteth upon his throne, even unto the firstborn of the maidservant that is behind the mill; and all the firstborn of beasts.
+\goodbreak{}\vref{6}\nobreak{}And there shall be a great cry throughout all the land of Egypt, such as there was none like it, nor shall be like it any more.
+\goodbreak{}\vref{7}\nobreak{}But against any of the children of Israel shall not a dog move his tongue, against man or beast: that ye may know how that the LORD doth put a difference between the Egyptians and Israel.\gap{}
+
+\goodbreak{}\vref{12:1}\nobreak{}And the LORD spake unto Moses and Aaron in the land of Egypt saying,
+\goodbreak{}\vref{2}\nobreak{}This month shall be unto you the beginning of months: it shall be the first month of the year to you.
+\goodbreak{}\vref{3}\nobreak{}Speak ye unto all the congregation of Israel, saying, In the tenth day of this month they shall take to them every man a lamb, according to the house of their fathers, a lamb for an house:
+\goodbreak{}\vref{4}\nobreak{}And if the household be too little for the lamb, let him and his neighbour next unto his house take it according to the number of the souls; every man according to his eating shall make your count for the lamb.
+\goodbreak{}\vref{5}\nobreak{}Your lamb shall be without blemish, a male of the first year: ye shall take it out from the sheep, or from the goats:
+\goodbreak{}\vref{6}\nobreak{}And ye shall keep it up until the fourteenth day of the same month: and the whole assembly of the congregation of Israel shall kill it in the evening.
+\goodbreak{}\vref{7}\nobreak{}And they shall take of the blood, and strike it on the two side posts and on the upper door post of the houses, wherein they shall eat it.
+\gap{}\goodbreak{}\vref{11}\nobreak{}And thus shall ye eat it; with your loins girded, your shoes on your feet, and your staff in your hand; and ye shall eat it in haste: it is the LORD's passover.
+\goodbreak{}\vref{12}\nobreak{}For I will pass through the land of Egypt this night, and will smite all the firstborn in the land of Egypt, both man and beast; and against all the gods of Egypt I will execute judgment: I am the LORD.\gap{}
+
+\goodbreak{}\vref{29}\nobreak{}And it came to pass, that at midnight the LORD smote all the firstborn in the land of Egypt, from the firstborn of Pharaoh that sat on his throne unto the firstborn of the captive that was in the dungeon; and all the firstborn of cattle.
+\goodbreak{}\vref{30}\nobreak{}And Pharaoh rose up in the night, he, and all his servants, and all the Egyptians; and there was a great cry in Egypt; for there was not a house where there was not one dead.
+\goodbreak{}\vref{31}\nobreak{}And he called for Moses and Aaron by night, and said, Rise up, and get you forth from among my people, both ye and the children of Israel; and go, serve the LORD, as ye have said.
+\goodbreak{}\vref{32}\nobreak{}Also take your flocks and your herds, as ye have said, and be gone; and bless me also.
+\goodbreak{}\vref{33}\nobreak{}And the Egyptians were urgent upon the people, that they might send them out of the land in haste; for they said, We be all dead men.\gap{}
+
+\goodbreak{}\vref{40}\nobreak{}Now the sojourning of the children of Israel, who dwelt in Egypt, was four hundred and thirty years.
+\goodbreak{}\vref{41}\nobreak{}And it came to pass at the end of the four hundred and thirty years, even the selfsame day it came to pass, that all the hosts of the LORD went out from the land of Egypt.
+\goodbreak{}\vref{42}\nobreak{}It is a night to be much observed unto the LORD for bringing them out from the land of Egypt: this is that night of the LORD to be observed of all the children of Israel in their generations.
+
+\tocentry[level=1, number=6]{Kings & Prophets}
+\heading{Kings & Prophets}
+
+\goodbreak{}\vref{Act 7:37}\nobreak{}This is that Moses, which said unto the children of Israel, A prophet shall the Lord your God raise up unto you of your brethren, like unto me; him shall ye hear.
+\goodbreak{}\vref{38}\nobreak{}This is he, that was in the church in the wilderness with the angel which spake to him in the mount Sina, and with our fathers: who received the lively oracles to give unto us:
+\goodbreak{}\vref{39}\nobreak{}To whom our fathers would not obey, but thrust him from them, and in their hearts turned back again into Egypt,
+\goodbreak{}\vref{40}\nobreak{}Saying unto Aaron, Make us gods to go before us: for as for this Moses, which brought us out of the land of Egypt, we wot not what is become of him.
+\goodbreak{}\vref{41}\nobreak{}And they made a calf in those days, and offered sacrifice unto the idol, and rejoiced in the works of their own hands.
+\goodbreak{}\vref{42}\nobreak{}Then God turned, and gave them up to worship the host of heaven; as it is written in the book of the prophets, O ye house of Israel, have ye offered to me slain beasts and sacrifices by the space of forty years in the wilderness?
+\goodbreak{}\vref{43}\nobreak{}Yea, ye took up the tabernacle of Moloch, and the star of your god Remphan, figures which ye made to worship them: and I will carry you away beyond Babylon.
+\goodbreak{}\vref{44}\nobreak{}Our fathers had the tabernacle of witness in the wilderness, as he had appointed, speaking unto Moses, that he should make it according to the fashion that he had seen.
+\goodbreak{}\vref{45}\nobreak{}Which also our fathers that came after brought in with Jesus into the possession of the Gentiles, whom God drave out before the face of our fathers, unto the days of David;
+\goodbreak{}\vref{46}\nobreak{}Who found favour before God, and desired to find a tabernacle for the God of Jacob.
+
+\goodbreak{}\vref{2Sa 7:1}\nobreak{}And it came to pass, when the king sat in his house, and the LORD had given him rest round about from all his enemies;
+\goodbreak{}\vref{2}\nobreak{}That the king said unto Nathan the prophet, See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains.
+\goodbreak{}\vref{3}\nobreak{}And Nathan said to the king, Go, do all that is in thine heart; for the LORD is with thee.
+\goodbreak{}\vref{4}\nobreak{}And it came to pass that night, that the word of the LORD came unto Nathan, saying,
+
+\goodbreak{}\vref{5}\nobreak{}Go and tell my servant David, Thus saith the LORD, Shalt thou build me an house for me to dwell in?
+\goodbreak{}\vref{6}\nobreak{}Whereas I have not dwelt in any house since the time that I brought up the children of Israel out of Egypt, even to this day, but have walked in a tent and in a tabernacle.
+\goodbreak{}\vref{7}\nobreak{}In all the places wherein I have walked with all the children of Israel spake I a word with any of the tribes of Israel, whom I commanded to feed my people Israel, saying, Why build ye not me an house of cedar?
+\goodbreak{}\vref{8}\nobreak{}Now therefore so shalt thou say unto my servant David, Thus saith the LORD of hosts, I took thee from the sheepcote, from following the sheep, to be ruler over my people, over Israel:
+\goodbreak{}\vref{9}\nobreak{}And I was with thee whithersoever thou wentest, and have cut off all thine enemies out of thy sight, and have made thee a great name, like unto the name of the great men that are in the earth.
+\goodbreak{}\vref{10}\nobreak{}Moreover I will appoint a place for my people Israel, and will plant them, that they may dwell in a place of their own, and move no more; neither shall the children of wickedness afflict them any more, as beforetime,
+\goodbreak{}\vref{11}\nobreak{}And as since the time that I commanded judges to be over my people Israel, and have caused thee to rest from all thine enemies. Also the LORD telleth thee that he will make thee an house.
+\goodbreak{}\vref{12}\nobreak{}And when thy days be fulfilled, and thou shalt sleep with thy fathers, I will set up thy seed after thee, which shall proceed out of thy bowels, and I will establish his kingdom.
+\goodbreak{}\vref{13}\nobreak{}He shall build an house for my name, and I will stablish the throne of his kingdom for ever.
+\goodbreak{}\vref{14}\nobreak{}I will be his father, and he shall be my son. If he commit iniquity, I will chasten him with the rod of men, and with the stripes of the children of men:
+\goodbreak{}\vref{15}\nobreak{}But my mercy shall not depart away from him, as I took it from Saul, whom I put away before thee.
+\goodbreak{}\vref{16}\nobreak{}And thine house and thy kingdom shall be established for ever before thee: thy throne shall be established for ever.
+\goodbreak{}\vref{17}\nobreak{}According to all these words, and according to all this vision, so did Nathan speak unto David.
+
+\goodbreak{}\vref{18}\nobreak{}Then went king David in, and sat before the LORD, and he said, Who am I, O Lord GOD? and what is my house, that thou hast brought me hitherto?
+\goodbreak{}\vref{19}\nobreak{}And this was yet a small thing in thy sight, O Lord GOD; but thou hast spoken also of thy servant's house for a great while to come. And is this the manner of man, O Lord GOD?
+\goodbreak{}\vref{20}\nobreak{}And what can David say more unto thee? for thou, Lord GOD, knowest thy servant.
+\goodbreak{}\vref{21}\nobreak{}For thy word's sake, and according to thine own heart, hast thou done all these great things, to make thy servant know them.
+\goodbreak{}\vref{22}\nobreak{}Wherefore thou art great, O LORD God: for there is none like thee, neither is there any God beside thee, according to all that we have heard with our ears.
+
+\goodbreak{}\vref{Isa 7:1}\nobreak{}And it came to pass in the days of Ahaz the son of Jotham, the son of Uzziah, king of Judah, that Rezin the king of Syria, and Pekah the son of Remaliah, king of Israel, went up toward Jerusalem to war against it, but could not prevail against it.
+\goodbreak{}\vref{2}\nobreak{}And it was told the house of David, saying, Syria is confederate with Ephraim. And his heart was moved, and the heart of his people, as the trees of the wood are moved with the wind.
+\goodbreak{}\vref{3}\nobreak{}Then said the LORD unto Isaiah, Go forth now to meet Ahaz, thou, and Shearjashub thy son, at the end of the conduit of the upper pool in the highway of the fuller's field;
+\goodbreak{}\vref{4}\nobreak{}And say unto him, Take heed, and be quiet; fear not, neither be fainthearted for the two tails of these smoking firebrands, for the fierce anger of Rezin with Syria, and of the son of Remaliah.
+\gap{}\goodbreak{}\vref{10}\nobreak{}Moreover the LORD spake again unto Ahaz, saying,
+\goodbreak{}\vref{11}\nobreak{}Ask thee a sign of the LORD thy God; ask it either in the depth, or in the height above.
+\goodbreak{}\vref{12}\nobreak{}But Ahaz said, I will not ask, neither will I tempt the LORD.
+
+\goodbreak{}\vref{13}\nobreak{}And he said, Hear ye now, O house of David; Is it a small thing for you to weary men, but will ye weary my God also?
+\goodbreak{}\vref{14}\nobreak{}Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel.
+\gap{}\goodbreak{}\vref{9:2}\nobreak{}The people that walked in darkness have seen a great light: they that dwell in the land of the shadow of death, upon them hath the light shined.
+\goodbreak{}\vref{3}\nobreak{}Thou hast multiplied the nation, and not increased the joy: they joy before thee according to the joy in harvest, and as men rejoice when they divide the spoil.
+\goodbreak{}\vref{4}\nobreak{}For thou hast broken the yoke of his burden, and the staff of his shoulder, the rod of his oppressor, as in the day of Midian.
+\goodbreak{}\vref{5}\nobreak{}For every battle of the warrior is with confused noise, and garments rolled in blood; but this shall be with burning and fuel of fire.
+\goodbreak{}\vref{6}\nobreak{}For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace.
+\goodbreak{}\vref{7}\nobreak{}Of the increase of his government and peace there shall be no end, upon the throne of David, and upon his kingdom, to order it, and to establish it with judgment and with justice from henceforth even for ever. The zeal of the LORD of hosts will perform this.\gap{}
+
+\goodbreak{}\vref{40:1}\nobreak{}Comfort ye, comfort ye my people, saith your God.
+\goodbreak{}\vref{2}\nobreak{}Speak ye comfortably to Jerusalem, and cry unto her, that her warfare is accomplished, that her iniquity is pardoned: for she hath received of the LORD's hand double for all her sins.
+\goodbreak{}\vref{3}\nobreak{}The voice of him that crieth in the wilderness, Prepare ye the way of the LORD, make straight in the desert a highway for our God.
+\goodbreak{}\vref{4}\nobreak{}Every valley shall be exalted, and every mountain and hill shall be made low: and the crooked shall be made straight, and the rough places plain:
+\goodbreak{}\vref{5}\nobreak{}And the glory of the LORD shall be revealed, and all flesh shall see it together: for the mouth of the LORD hath spoken it.\gap{}
+
+\goodbreak{}\vref{42:1}\nobreak{}Behold my servant, whom I uphold; mine elect, in whom my soul delighteth; I have put my spirit upon him: he shall bring forth judgment to the Gentiles.
+\goodbreak{}\vref{2}\nobreak{}He shall not cry, nor lift up, nor cause his voice to be heard in the street.
+\goodbreak{}\vref{3}\nobreak{}A bruised reed shall he not break, and the smoking flax shall he not quench: he shall bring forth judgment unto truth.
+\goodbreak{}\vref{4}\nobreak{}He shall not fail nor be discouraged, till he have set judgment in the earth: and the isles shall wait for his law.\gap{}
+
+\goodbreak{}\vref{49:1}\nobreak{}Listen, O isles, unto me; and hearken, ye people, from far; The LORD hath called me from the womb; from the bowels of my mother hath he made mention of my name.
+\goodbreak{}\vref{2}\nobreak{}And he hath made my mouth like a sharp sword; in the shadow of his hand hath he hid me, and made me a polished shaft; in his quiver hath he hid me;
+\goodbreak{}\vref{3}\nobreak{}And said unto me, Thou art my servant, O Israel, in whom I will be glorified.
+\goodbreak{}\vref{4}\nobreak{}Then I said, I have laboured in vain, I have spent my strength for nought, and in vain: yet surely my judgment is with the LORD, and my work with my God.
+\goodbreak{}\vref{5}\nobreak{}And now, saith the LORD that formed me from the womb to be his servant, to bring Jacob again to him, Though Israel be not gathered, yet shall I be glorious in the eyes of the LORD, and my God shall be my strength.
+\goodbreak{}\vref{6}\nobreak{}And he said, It is a light thing that thou shouldest be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel: I will also give thee for a light to the Gentiles, that thou mayest be my salvation unto the end of the earth.\gap{}
+
+\goodbreak{}\vref{50:5}\nobreak{}The Lord GOD hath opened mine ear, and I was not rebellious, neither turned away back.
+\goodbreak{}\vref{6}\nobreak{}I gave my back to the smiters, and my cheeks to them that plucked off the hair: I hid not my face from shame and spitting.
+\goodbreak{}\vref{7}\nobreak{}For the Lord GOD will help me; therefore shall I not be confounded: therefore have I set my face like a flint, and I know that I shall not be ashamed.
+\goodbreak{}\vref{8}\nobreak{}He is near that justifieth me; who will contend with me? let us stand together: who is mine adversary? let him come near to me.
+\goodbreak{}\vref{9}\nobreak{}Behold, the Lord GOD will help me; who is he that shall condemn me?  lo, they all shall wax old as a garment; the moth shall eat them up.
+\gap{}\goodbreak{}\vref{52:13}\nobreak{}Behold, my servant shall deal prudently, he shall be exalted and extolled, and be very high.
+\goodbreak{}\vref{14}\nobreak{}As many were astonied at thee; his visage was so marred more than any man, and his form more than the sons of men:
+\goodbreak{}\vref{15}\nobreak{}So shall he sprinkle many nations; the kings shall shut their mouths at him: for that which had not been told them shall they see; and that which they had not heard shall they consider.
+
+\goodbreak{}\vref{53:1}\nobreak{}Who hath believed our report? and to whom is the arm of the LORD revealed?
+\goodbreak{}\vref{2}\nobreak{}For he shall grow up before him as a tender plant, and as a root out of a dry ground: he hath no form nor comeliness; and when we shall see him, there is no beauty that we should desire him.
+\goodbreak{}\vref{3}\nobreak{}He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not.
+\goodbreak{}\vref{4}\nobreak{}Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted.
+\goodbreak{}\vref{5}\nobreak{}But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.
+\goodbreak{}\vref{6}\nobreak{}All we like sheep have gone astray; we have turned every one to his own way; and the LORD hath laid on him the iniquity of us all.
+\goodbreak{}\vref{7}\nobreak{}He was oppressed, and he was afflicted, yet he opened not his mouth: he is brought as a lamb to the slaughter, and as a sheep before her shearers is dumb, so he openeth not his mouth.
+\goodbreak{}\vref{8}\nobreak{}He was taken from prison and from judgment: and who shall declare his generation? for he was cut off out of the land of the living: for the transgression of my people was he stricken.
+\goodbreak{}\vref{9}\nobreak{}And he made his grave with the wicked, and with the rich in his death; because he had done no violence, neither was any deceit in his mouth.
+\goodbreak{}\vref{10}\nobreak{}Yet it pleased the LORD to bruise him; he hath put him to grief: when thou shalt make his soul an offering for sin, he shall see his seed, he shall prolong his days, and the pleasure of the LORD shall prosper in his hand.
+\goodbreak{}\vref{11}\nobreak{}He shall see of the travail of his soul, and shall be satisfied: by his knowledge shall my righteous servant justify many; for he shall bear their iniquities.
+\goodbreak{}\vref{12}\nobreak{}Therefore will I divide him a portion with the great, and he shall divide the spoil with the strong; because he hath poured out his soul unto death: and he was numbered with the transgressors; and he bare the sin of many, and made intercession for the transgressors.\gap{}
+
+\goodbreak{}\vref{Mic 5:1}\nobreak{}Now gather thyself in troops, O daughter of troops: he hath laid siege against us: they shall smite the judge of Israel with a rod upon the cheek.
+\goodbreak{}\vref{2}\nobreak{}But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel; whose goings forth have been from of old, from everlasting.
+\goodbreak{}\vref{3}\nobreak{}Therefore will he give them up, until the time that she which travaileth hath brought forth: then the remnant of his brethren shall return unto the children of Israel.
+\goodbreak{}\vref{4}\nobreak{}And he shall stand and feed in the strength of the LORD, in the majesty of the name of the LORD his God; and they shall abide: for now shall he be great unto the ends of the earth.
+
+\tocentry[level=1, number=6]{Exiles & Remnant}
+\heading{Exiles & Remnant}
+
+\goodbreak{}\vref{Ps 106:4}\nobreak{}Remember me, O LORD, with the favour that thou bearest unto thy people: O visit me with thy salvation;
+\goodbreak{}\vref{5}\nobreak{}That I may see the good of thy chosen, that I may rejoice in the gladness of thy nation, that I may glory with thine inheritance.
+\goodbreak{}\vref{6}\nobreak{}We have sinned with our fathers, we have committed iniquity, we have done wickedly.
+\goodbreak{}\vref{7}\nobreak{}Our fathers understood not thy wonders in Egypt; they remembered not the multitude of thy mercies; but provoked him at the sea, even at the Red sea.
+\goodbreak{}\vref{8}\nobreak{}Nevertheless he saved them for his name's sake, that he might make his mighty power to be known.
+\goodbreak{}\vref{9}\nobreak{}He rebuked the Red sea also, and it was dried up: so he led them through the depths, as through the wilderness.
+\goodbreak{}\vref{10}\nobreak{}And he saved them from the hand of him that hated them, and redeemed them from the hand of the enemy.
+\goodbreak{}\vref{11}\nobreak{}And the waters covered their enemies: there was not one of them left.
+\goodbreak{}\vref{12}\nobreak{}Then believed they his words; they sang his praise.
+\goodbreak{}\vref{13}\nobreak{}They soon forgat his works; they waited not for his counsel:
+\gap{}\goodbreak{}\vref{19}\nobreak{}They made a calf in Horeb, and worshipped the molten image.
+\goodbreak{}\vref{20}\nobreak{}Thus they changed their glory into the similitude of an ox that eateth grass.
+\goodbreak{}\vref{21}\nobreak{}They forgat God their saviour, which had done great things in Egypt;
+\gap{}\goodbreak{}\vref{24}\nobreak{}Yea, they despised the pleasant land, they believed not his word:
+\goodbreak{}\vref{25}\nobreak{}But murmured in their tents, and hearkened not unto the voice of the LORD.
+\gap{}\goodbreak{}\vref{34}\nobreak{}They did not destroy the nations, concerning whom the LORD commanded them:
+\goodbreak{}\vref{35}\nobreak{}But were mingled among the heathen, and learned their works.
+\goodbreak{}\vref{36}\nobreak{}And they served their idols: which were a snare unto them.
+\goodbreak{}\vref{37}\nobreak{}Yea, they sacrificed their sons and their daughters unto devils,
+\goodbreak{}\vref{38}\nobreak{}And shed innocent blood, even the blood of their sons and of their daughters, whom they sacrificed unto the idols of Canaan: and the land was polluted with blood.
+\goodbreak{}\vref{39}\nobreak{}Thus were they defiled with their own works, and went a whoring with their own inventions.\gap{}
+
+\goodbreak{}\vref{2Ch 36:14}\nobreak{}Moreover all the chief of the priests, and the people, transgressed very much after all the abominations of the heathen; and polluted the house of the LORD which he had hallowed in Jerusalem.
+\goodbreak{}\vref{15}\nobreak{}And the LORD God of their fathers sent to them by his messengers, rising up betimes, and sending; because he had compassion on his people, and on his dwelling place:
+\goodbreak{}\vref{16}\nobreak{}But they mocked the messengers of God, and despised his words, and misused his prophets, until the wrath of the LORD arose against his people, till there was no remedy.
+\goodbreak{}\vref{17}\nobreak{}Therefore he brought upon them the king of the Chaldees, who slew their young men with the sword in the house of their sanctuary, and had no compassion upon young man or maiden, old man, or him that stooped for age: he gave them all into his hand.
+\goodbreak{}\vref{18}\nobreak{}And all the vessels of the house of God, great and small, and the treasures of the house of the LORD, and the treasures of the king, and of his princes; all these he brought to Babylon.
+\goodbreak{}\vref{19}\nobreak{}And they burnt the house of God, and brake down the wall of Jerusalem, and burnt all the palaces thereof with fire, and destroyed all the goodly vessels thereof.
+\goodbreak{}\vref{20}\nobreak{}And them that had escaped from the sword carried he away to Babylon; where they were servants to him and his sons until the reign of the kingdom of Persia:
+\goodbreak{}\vref{21}\nobreak{}To fulfil the word of the LORD by the mouth of Jeremiah, until the land had enjoyed her sabbaths: for as long as she lay desolate she kept sabbath, to fulfil threescore and ten years.
+
+\goodbreak{}\vref{Ezr 1:1}\nobreak{}Now in the first year of Cyrus king of Persia, that the word of the LORD by the mouth of Jeremiah might be fulfilled, the LORD stirred up the spirit of Cyrus king of Persia, that he made a proclamation throughout all his kingdom, and put it also in writing, saying,
+\goodbreak{}\vref{2}\nobreak{}Thus saith Cyrus king of Persia, The LORD God of heaven hath given me all the kingdoms of the earth; and he hath charged me to build him an house at Jerusalem, which is in Judah.
+\goodbreak{}\vref{3}\nobreak{}Who is there among you of all his people? his God be with him, and let him go up to Jerusalem, which is in Judah, and build the house of the LORD God of Israel, (he is the God,) which is in Jerusalem.
+\gap{}\goodbreak{}\vref{5:2}\nobreak{}Then rose up Zerubbabel the son of Shealtiel, and Jeshua the son of Jozadak, and began to build the house of God which is at Jerusalem: and with them were the prophets of God helping them.
+\gap{}\goodbreak{}\vref{3:10}\nobreak{}And when the builders laid the foundation of the temple of the LORD, they set the priests in their apparel with trumpets, and the Levites the sons of Asaph with cymbals, to praise the LORD, after the ordinance of David king of Israel.
+\goodbreak{}\vref{11}\nobreak{}And they sang together by course in praising and giving thanks unto the LORD; because he is good, for his mercy endureth for ever toward Israel. And all the people shouted with a great shout, when they praised the LORD, because the foundation of the house of the LORD was laid.
+\goodbreak{}\vref{12}\nobreak{}But many of the priests and Levites and chief of the fathers, who were ancient men, that had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice; and many shouted aloud for joy:
+\goodbreak{}\vref{13}\nobreak{}So that the people could not discern the noise of the shout of joy from the noise of the weeping of the people: for the people shouted with a loud shout, and the noise was heard afar off.
+\gap{}\goodbreak{}\vref{6:14}\nobreak{}And the elders of the Jews builded, and they prospered through the prophesying of Haggai the prophet and Zechariah the son of Iddo. And they builded, and finished it, according to the commandment of the God of Israel, and according to the commandment of Cyrus, and Darius, and Artaxerxes king of Persia.
+\goodbreak{}\vref{15}\nobreak{}And this house was finished on the third day of the month Adar, which was in the sixth year of the reign of Darius the king.
+
+\goodbreak{}\vref{Hag 2:1}\nobreak{}In the seventh month, in the one and twentieth day of the month, came the word of the LORD by the prophet Haggai, saying,
+\goodbreak{}\vref{2}\nobreak{}Speak now to Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Josedech, the high priest, and to the residue of the people, saying,
+\goodbreak{}\vref{3}\nobreak{}Who is left among you that saw this house in her first glory? and how do ye see it now? is it not in your eyes in comparison of it as nothing?
+\goodbreak{}\vref{4}\nobreak{}Yet now be strong, O Zerubbabel, saith the LORD; and be strong, O Joshua, son of Josedech, the high priest; and be strong, all ye people of the land, saith the LORD, and work: for I am with you, saith the LORD of hosts:
+\goodbreak{}\vref{5}\nobreak{}According to the word that I covenanted with you when ye came out of Egypt, so my spirit remaineth among you: fear ye not.
+\goodbreak{}\vref{6}\nobreak{}For thus saith the LORD of hosts; Yet once, it is a little while, and I will shake the heavens, and the earth, and the sea, and the dry land;
+\goodbreak{}\vref{7}\nobreak{}And I will shake all nations, and the desire of all nations shall come: and I will fill this house with glory, saith the LORD of hosts.
+\goodbreak{}\vref{8}\nobreak{}The silver is mine, and the gold is mine, saith the LORD of hosts.
+\goodbreak{}\vref{9}\nobreak{}The glory of this latter house shall be greater than of the former, saith the LORD of hosts: and in this place will I give peace, saith the LORD of hosts.
+
+\goodbreak{}\vref{Zac 7:8}\nobreak{}And the word of the LORD came unto Zechariah, saying,
+\gap{}\goodbreak{}\vref{9:9}\nobreak{}Rejoice greatly, O daughter of Zion; shout, O daughter of Jerusalem: behold, thy King cometh unto thee: he is just, and having salvation; lowly, and riding upon an ass, and upon a colt the foal of an ass.
+\goodbreak{}\vref{10}\nobreak{}And I will cut off the chariot from Ephraim, and the horse from Jerusalem, and the battle bow shall be cut off: and he shall speak peace unto the heathen: and his dominion shall be from sea even to sea, and from the river even to the ends of the earth.
+\goodbreak{}\vref{11}\nobreak{}As for thee also, by the blood of thy covenant I have sent forth thy prisoners out of the pit wherein is no water.
+\gap{}\goodbreak{}\vref{15}\nobreak{}The LORD of hosts shall defend them; and they shall devour, and subdue with sling stones; and they shall drink, and make a noise as through wine; and they shall be filled like bowls, and as the corners of the altar.
+\goodbreak{}\vref{16}\nobreak{}And the LORD their God shall save them in that day as the flock of his people: for they shall be as the stones of a crown, lifted up as an ensign upon his land.
+
+\goodbreak{}\vref{Mal 1:1}\nobreak{}The burden of the word of the LORD to Israel by Malachi.
+\gap{}\goodbreak{}\vref{3:13}\nobreak{}Your words have been stout against me, saith the LORD. Yet ye say, What have we spoken so much against thee?
+\goodbreak{}\vref{14}\nobreak{}Ye have said, It is vain to serve God: and what profit is it that we have kept his ordinance, and that we have walked mournfully before the LORD of hosts?
+\goodbreak{}\vref{15}\nobreak{}And now we call the proud happy; yea, they that work wickedness are set up; yea, they that tempt God are even delivered.
+\goodbreak{}\vref{16}\nobreak{}Then they that feared the LORD spake often one to another: and the LORD hearkened, and heard it, and a book of remembrance was written before him for them that feared the LORD, and that thought upon his name.
+\goodbreak{}\vref{17}\nobreak{}And they shall be mine, saith the LORD of hosts, in that day when I make up my jewels; and I will spare them, as a man spareth his own son that serveth him.
+\goodbreak{}\vref{18}\nobreak{}Then shall ye return, and discern between the righteous and the wicked, between him that serveth God and him that serveth him not.
+\goodbreak{}\vref{4:1}\nobreak{}For, behold, the day cometh, that shall burn as an oven; and all the proud, yea, and all that do wickedly, shall be stubble: and the day that cometh shall burn them up, saith the LORD of hosts, that it shall leave them neither root nor branch.
+\goodbreak{}\vref{2}\nobreak{}But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall.
+\goodbreak{}\vref{3}\nobreak{}And ye shall tread down the wicked; for they shall be ashes under the soles of your feet in the day that I shall do this, saith the LORD of hosts.
+\goodbreak{}\vref{4}\nobreak{}Remember ye the law of Moses my servant, which I commanded unto him in Horeb for all Israel, with the statutes and judgments.
+\goodbreak{}\vref{5}\nobreak{}Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:
+
+\tocentry[level=1, number=6]{Heralds & Handmaids}
+\heading{Heralds & Handmaids}
+
+\goodbreak{}\vref{Lk 1:5}\nobreak{}THERE was in the days of Herod, the king of Judaea, a certain priest named Zacharias, of the course of Abia: and his wife was of the daughters of Aaron, and her name was Elisabeth.
+\goodbreak{}\vref{6}\nobreak{}And they were both righteous before God, walking in all the commandments and ordinances of the Lord blameless.
+\goodbreak{}\vref{7}\nobreak{}And they had no child, because that Elisabeth was barren, and they both were now well stricken in years.
+\goodbreak{}\vref{8}\nobreak{}And it came to pass, that while he executed the priest's office before God in the order of his course,
+\goodbreak{}\vref{9}\nobreak{}According to the custom of the priest's office, his lot was to burn incense when he went into the temple of the Lord.
+\goodbreak{}\vref{10}\nobreak{}And the whole multitude of the people were praying without at the time of incense.
+\goodbreak{}\vref{11}\nobreak{}And there appeared unto him an angel of the Lord standing on the right side of the altar of incense.
+\goodbreak{}\vref{12}\nobreak{}And when Zacharias saw him, he was troubled, and fear fell upon him.
+
+\goodbreak{}\vref{13}\nobreak{}But the angel said unto him, Fear not, Zacharias: for thy prayer is heard; and thy wife Elisabeth shall bear thee a son, and thou shalt call his name John.
+\goodbreak{}\vref{14}\nobreak{}And thou shalt have joy and gladness; and many shall rejoice at his birth.
+\goodbreak{}\vref{15}\nobreak{}For he shall be great in the sight of the Lord, and shall drink neither wine nor strong drink; and he shall be filled with the Holy Ghost, even from his mother's womb.
+\goodbreak{}\vref{16}\nobreak{}And many of the children of Israel shall he turn to the Lord their God.
+\goodbreak{}\vref{17}\nobreak{}And he shall go before him in the spirit and power of Elias, to turn the hearts of the fathers to the children, and the disobedient to the wisdom of the just; to make ready a people prepared for the Lord.
+\gap{}\goodbreak{}\vref{23}\nobreak{}And it came to pass, that, as soon as the days of his ministration were accomplished, he departed to his own house.
+\goodbreak{}\vref{24}\nobreak{}And after those days his wife Elisabeth conceived, and hid herself five months, saying,
+\goodbreak{}\vref{25}\nobreak{}Thus hath the Lord dealt with me in the days wherein he looked on me, to take away my reproach among men.
+
+\goodbreak{}\vref{26}\nobreak{}And in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth,
+\goodbreak{}\vref{27}\nobreak{}To a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin's name was Mary.
+\goodbreak{}\vref{28}\nobreak{}And the angel came in unto her, and said, Hail, thou that art highly favoured, the Lord is with thee: blessed art thou among women.
+\goodbreak{}\vref{29}\nobreak{}And when she saw him, she was troubled at his saying, and cast in her mind what manner of salutation this should be.
+\goodbreak{}\vref{30}\nobreak{}And the angel said unto her, Fear not, Mary: for thou hast found favour with God.
+\goodbreak{}\vref{31}\nobreak{}And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS.
+\goodbreak{}\vref{32}\nobreak{}He shall be great, and shall be called the Son of the Highest: and the Lord God shall give unto him the throne of his father David:
+\goodbreak{}\vref{33}\nobreak{}And he shall reign over the house of Jacob for ever; and of his kingdom there shall be no end.
+\goodbreak{}\vref{34}\nobreak{}Then said Mary unto the angel, How shall this be, seeing I know not a man?
+\goodbreak{}\vref{35}\nobreak{}And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God.
+\goodbreak{}\vref{36}\nobreak{}And, behold, thy cousin Elisabeth, she hath also conceived a son in her old age: and this is the sixth month with her, who was called barren.
+\goodbreak{}\vref{37}\nobreak{}For with God nothing shall be impossible.
+\goodbreak{}\vref{38}\nobreak{}And Mary said, Behold the handmaid of the Lord; be it unto me according to thy word. And the angel departed from her.
+
+\goodbreak{}\vref{39}\nobreak{}And Mary arose in those days, and went into the hill country with haste, into a city of Juda;
+\goodbreak{}\vref{40}\nobreak{}And entered into the house of Zacharias, and saluted Elisabeth.
+\goodbreak{}\vref{41}\nobreak{}And it came to pass, that, when Elisabeth heard the salutation of Mary, the babe leaped in her womb; and Elisabeth was filled with the Holy Ghost:
+\goodbreak{}\vref{42}\nobreak{}And she spake out with a loud voice, and said, Blessed art thou among women, and blessed is the fruit of thy womb.
+\goodbreak{}\vref{43}\nobreak{}And whence is this to me, that the mother of my Lord should come to me?
+\goodbreak{}\vref{44}\nobreak{}For, lo, as soon as the voice of thy salutation sounded in mine ears, the babe leaped in my womb for joy.
+\goodbreak{}\vref{45}\nobreak{}And blessed is she that believed: for there shall be a performance of those things which were told her from the Lord.
+\goodbreak{}\vref{46}\nobreak{}And Mary said, My soul doth magnify the Lord,
+\goodbreak{}\vref{47}\nobreak{}And my spirit hath rejoiced in God my Saviour.
+\goodbreak{}\vref{48}\nobreak{}For he hath regarded the low estate of his handmaiden: for, behold, from henceforth all generations shall call me blessed.
+\goodbreak{}\vref{49}\nobreak{}For he that is mighty hath done to me great things; and holy is his name.
+\goodbreak{}\vref{50}\nobreak{}And his mercy is on them that fear him from generation to generation.
+\goodbreak{}\vref{51}\nobreak{}He hath shewed strength with his arm; he hath scattered the proud in the imagination of their hearts.
+\goodbreak{}\vref{52}\nobreak{}He hath put down the mighty from their seats, and exalted them of low degree.
+\goodbreak{}\vref{53}\nobreak{}He hath filled the hungry with good things; and the rich he hath sent empty away.
+\goodbreak{}\vref{54}\nobreak{}He hath holpen his servant Israel, in remembrance of his mercy;
+\goodbreak{}\vref{55}\nobreak{}As he spake to our fathers, to Abraham, and to his seed for ever.
+\goodbreak{}\vref{56}\nobreak{}And Mary abode with her about three months, and returned to her own house.
+
+\goodbreak{}\vref{57}\nobreak{}Now Elisabeth's full time came that she should be delivered; and she brought forth a son.
+\gap{}\goodbreak{}\vref{65}\nobreak{}And fear came on all that dwelt round about them: and all these sayings were noised abroad throughout all the hill country of Judaea.
+\goodbreak{}\vref{66}\nobreak{}And all they that heard them laid them up in their hearts, saying, What manner of child shall this be! And the hand of the Lord was with him.
+\goodbreak{}\vref{67}\nobreak{}And his father Zacharias was filled with the Holy Ghost, and prophesied, saying,
+\goodbreak{}\vref{68}\nobreak{}Blessed be the Lord God of Israel; for he hath visited and redeemed his people,
+\goodbreak{}\vref{69}\nobreak{}And hath raised up an horn of salvation for us in the house of his servant David;
+\goodbreak{}\vref{70}\nobreak{}As he spake by the mouth of his holy prophets, which have been since the world began:
+\goodbreak{}\vref{71}\nobreak{}That we should be saved from our enemies, and from the hand of all that hate us;
+\goodbreak{}\vref{72}\nobreak{}To perform the mercy promised to our fathers, and to remember his holy covenant;
+\goodbreak{}\vref{73}\nobreak{}The oath which he sware to our father Abraham,
+\goodbreak{}\vref{74}\nobreak{}That he would grant unto us, that we being delivered out of the hand of our enemies might serve him without fear,
+\goodbreak{}\vref{75}\nobreak{}In holiness and righteousness before him, all the days of our life.
+\goodbreak{}\vref{76}\nobreak{}And thou, child, shalt be called the prophet of the Highest: for thou shalt go before the face of the Lord to prepare his ways;
+\goodbreak{}\vref{77}\nobreak{}To give knowledge of salvation unto his people by the remission of their sins,
+\goodbreak{}\vref{78}\nobreak{}Through the tender mercy of our God; whereby the dayspring from on high hath visited us,
+\goodbreak{}\vref{79}\nobreak{}To give light to them that sit in darkness and in the shadow of death, to guide our feet into the way of peace.
+\goodbreak{}\vref{80}\nobreak{}And the child grew, and waxed strong in spirit, and was in the deserts till the day of his shewing unto Israel.
+
+\tocentry[level=1, number=6]{Birth & Childhood}
+\heading{Birth & Childhood}
+
+\goodbreak{}\vref{2:1}\nobreak{}And it came to pass in those days, that there went out a decree from Caesar Augustus that all the world should be taxed.
+\goodbreak{}\vref{2}\nobreak{}(And this taxing was first made when Cyrenius was governor of Syria.)
+\goodbreak{}\vref{3}\nobreak{}And all went to be taxed, every one into his own city.
+\goodbreak{}\vref{4}\nobreak{}And Joseph also went up from Galilee, out of the city of Nazareth, into Judaea, unto the city of David, which is called Bethlehem; (because he was of the house and lineage of David:)
+\goodbreak{}\vref{5}\nobreak{}To be taxed with Mary his espoused wife, being great with child.
+\goodbreak{}\vref{6}\nobreak{}And so it was, that, while they were there, the days were accomplished that she should be delivered.
+\goodbreak{}\vref{7}\nobreak{}And she brought forth her firstborn son, and wrapped him in swaddling clothes, and laid him in a manger; because there was no room for them in the inn.
+
+\goodbreak{}\vref{8}\nobreak{}And there were in the same country shepherds abiding in the field, keeping watch over their flock by night.
+\goodbreak{}\vref{9}\nobreak{}And, lo, the angel of the Lord came upon them, and the glory of the Lord shone round about them: and they were sore afraid.
+\goodbreak{}\vref{10}\nobreak{}And the angel said unto them, Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people.
+\goodbreak{}\vref{11}\nobreak{}For unto you is born this day in the city of David a Saviour, which is Christ the Lord.
+\goodbreak{}\vref{12}\nobreak{}And this shall be a sign unto you; Ye shall find the babe wrapped in swaddling clothes, lying in a manger.
+\goodbreak{}\vref{13}\nobreak{}And suddenly there was with the angel a multitude of the heavenly host praising God, and saying,
+\goodbreak{}\vref{14}\nobreak{}Glory to God in the highest, and on earth peace, good will toward men.
+\goodbreak{}\vref{15}\nobreak{}And it came to pass, as the angels were gone away from them into heaven, the shepherds said one to another, Let us now go even unto Bethlehem, and see this thing which is come to pass, which the Lord hath made known unto us.
+\goodbreak{}\vref{16}\nobreak{}And they came with haste, and found Mary, and Joseph, and the babe lying in a manger.
+\goodbreak{}\vref{17}\nobreak{}And when they had seen it, they made known abroad the saying which was told them concerning this child.
+\goodbreak{}\vref{18}\nobreak{}And all they that heard it wondered at those things which were told them by the shepherds.
+\goodbreak{}\vref{19}\nobreak{}But Mary kept all these things, and pondered them in her heart.
+\goodbreak{}\vref{20}\nobreak{}And the shepherds returned, glorifying and praising God for all the things that they had heard and seen, as it was told unto them.
+
+\goodbreak{}\vref{21}\nobreak{}And when eight days were accomplished for the circumcising of the child, his name was called JESUS, which was so named of the angel before he was conceived in the womb.
+\goodbreak{}\vref{22}\nobreak{}And when the days of her purification according to the law of Moses were accomplished, they brought him to Jerusalem, to present him to the Lord;
+\goodbreak{}\vref{23}\nobreak{}(As it is written in the law of the LORD, Every male that openeth the womb shall be called holy to the Lord;)
+\goodbreak{}\vref{24}\nobreak{}And to offer a sacrifice according to that which is said in the law of the Lord, A pair of turtledoves, or two young pigeons.
+\goodbreak{}\vref{25}\nobreak{}And, behold, there was a man in Jerusalem, whose name was Simeon; and the same man was just and devout, waiting for the consolation of Israel: and the Holy Ghost was upon him.
+\goodbreak{}\vref{26}\nobreak{}And it was revealed unto him by the Holy Ghost, that he should not see death, before he had seen the Lord's Christ.
+\goodbreak{}\vref{27}\nobreak{}And he came by the Spirit into the temple: and when the parents brought in the child Jesus, to do for him after the custom of the law,
+\goodbreak{}\vref{28}\nobreak{}Then took he him up in his arms, and blessed God, and said,
+\goodbreak{}\vref{29}\nobreak{}Lord, now lettest thou thy servant depart in peace, according to thy word:
+\goodbreak{}\vref{30}\nobreak{}For mine eyes have seen thy salvation,
+\goodbreak{}\vref{31}\nobreak{}Which thou hast prepared before the face of all people;
+\goodbreak{}\vref{32}\nobreak{}A light to lighten the Gentiles, and the glory of thy people Israel.
+\goodbreak{}\vref{33}\nobreak{}And Joseph and his mother marvelled at those things which were spoken of him.
+\goodbreak{}\vref{34}\nobreak{}And Simeon blessed them, and said unto Mary his mother, Behold, this child is set for the fall and rising again of many in Israel; and for a sign which shall be spoken against;
+\goodbreak{}\vref{35}\nobreak{}(Yea, a sword shall pierce through thy own soul also,) that the thoughts of many hearts may be revealed.\gap{}
+
+\goodbreak{}\vref{Mt 2:1}\nobreak{}Now when Jesus was born in Bethlehem of Judaea in the days of Herod the king, behold, there came wise men from the east to Jerusalem,
+\goodbreak{}\vref{2}\nobreak{}Saying, Where is he that is born King of the Jews? for we have seen his star in the east, and are come to worship him.
+\goodbreak{}\vref{3}\nobreak{}When Herod the king had heard these things, he was troubled, and all Jerusalem with him.
+\goodbreak{}\vref{4}\nobreak{}And when he had gathered all the chief priests and scribes of the people together, he demanded of them where Christ should be born.
+\goodbreak{}\vref{5}\nobreak{}And they said unto him, In Bethlehem of Judaea: for thus it is written by the prophet,
+\goodbreak{}\vref{6}\nobreak{}And thou Bethlehem, in the land of Juda, art not the least among the princes of Juda: for out of thee shall come a Governor, that shall rule my people Israel.
+
+\goodbreak{}\vref{7}\nobreak{}Then Herod, when he had privily called the wise men, enquired of them diligently what time the star appeared.
+\goodbreak{}\vref{8}\nobreak{}And he sent them to Bethlehem, and said, Go and search diligently for the young child; and when ye have found him, bring me word again, that I may come and worship him also.
+\goodbreak{}\vref{9}\nobreak{}When they had heard the king, they departed; and, lo, the star, which they saw in the east, went before them, till it came and stood over where the young child was.
+\goodbreak{}\vref{10}\nobreak{}When they saw the star, they rejoiced with exceeding great joy.
+\goodbreak{}\vref{11}\nobreak{}And when they were come into the house, they saw the young child with Mary his mother, and fell down, and worshipped him: and when they had opened their treasures, they presented unto him gifts; gold, and frankincense and myrrh.
+\goodbreak{}\vref{12}\nobreak{}And being warned of God in a dream that they should not return to Herod, they departed into their own country another way.
+\goodbreak{}\vref{13}\nobreak{}And when they were departed, behold, the angel of the Lord appeareth to Joseph in a dream, saying, Arise, and take the young child and his mother, and flee into Egypt, and be thou there until I bring thee word: for Herod will seek the young child to destroy him.
+\goodbreak{}\vref{14}\nobreak{}When he arose, he took the young child and his mother by night, and departed into Egypt:
+\goodbreak{}\vref{15}\nobreak{}And was there until the death of Herod: that it might be fulfilled which was spoken of the Lord by the prophet, saying, Out of Egypt have I called my son.
+
+\goodbreak{}\vref{16}\nobreak{}Then Herod, when he saw that he was mocked of the wise men, was exceeding wroth, and sent forth, and slew all the children that were in Bethlehem, and in all the coasts thereof, from two years old and under, according to the time which he had diligently enquired of the wise men.
+\goodbreak{}\vref{17}\nobreak{}Then was fulfilled that which was spoken by Jeremy the prophet, saying,
+\goodbreak{}\vref{18}\nobreak{}In Rama was there a voice heard, lamentation, and weeping, and great mourning, Rachel weeping for her children, and would not be comforted, because they are not.
+\goodbreak{}\vref{19}\nobreak{}But when Herod was dead, behold, an angel of the Lord appeareth in a dream to Joseph in Egypt,
+\goodbreak{}\vref{20}\nobreak{}Saying, Arise, and take the young child and his mother, and go into the land of Israel: for they are dead which sought the young child's life.
+\goodbreak{}\vref{21}\nobreak{}And he arose, and took the young child and his mother, and came into the land of Israel.
+\goodbreak{}\vref{22}\nobreak{}But when he heard that Archelaus did reign in Judaea in the room of his father Herod, he was afraid to go thither: notwithstanding, being warned of God in a dream, he turned aside into the parts of Galilee:
+\goodbreak{}\vref{23}\nobreak{}And he came and dwelt in a city called Nazareth: that it might be fulfilled which was spoken by the prophets, He shall be called a Nazarene.
+
+\tocentry[level=1, number=6]{Testing & Teaching}
+\heading{Testing & Teaching}
+
+\goodbreak{}\vref{3:1}\nobreak{}In those days came John the Baptist, preaching in the wilderness of Judaea,
+\goodbreak{}\vref{2}\nobreak{}And saying, Repent ye: for the kingdom of heaven is at hand.
+\goodbreak{}\vref{3}\nobreak{}For this is he that was spoken of by the prophet Esaias, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.
+\gap{}\goodbreak{}\vref{11}\nobreak{}I indeed baptize you with water unto repentance. but he that cometh after me is mightier than I, whose shoes I am not worthy to bear: he shall baptize you with the Holy Ghost, and with fire:
+\goodbreak{}\vref{12}\nobreak{}Whose fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire.
+
+\goodbreak{}\vref{13}\nobreak{}Then cometh Jesus from Galilee to Jordan unto John, to be baptized of him.
+\goodbreak{}\vref{14}\nobreak{}But John forbad him, saying, I have need to be baptized of thee, and comest thou to me?
+\goodbreak{}\vref{15}\nobreak{}And Jesus answering said unto him, Suffer it to be so now: for thus it becometh us to fulfil all righteousness. Then he suffered him.
+\goodbreak{}\vref{16}\nobreak{}And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him:
+\goodbreak{}\vref{17}\nobreak{}And lo a voice from heaven, saying, This is my beloved Son, in whom I am well pleased.\gap{}
+
+\goodbreak{}\vref{Lk 3:23}\nobreak{}And Jesus himself began to be about thirty years of age, being (as was supposed) the son of Joseph, which was the son of Heli,
+\goodbreak{}\vref{24}\nobreak{}Which was the son of Matthat, which was the son of Levi, which was the son of Melchi, which was the son of Janna, which was the son of Joseph,
+\goodbreak{}\vref{25}\nobreak{}Which was the son of Mattathias, which was the son of Amos, which was the son of Naum, which was the son of Esli, which was the son of Nagge,
+\goodbreak{}\vref{26}\nobreak{}Which was the son of Maath, which was the son of Mattathias, which was the son of Semei, which was the son of Joseph, which was the son of Juda,
+\goodbreak{}\vref{27}\nobreak{}Which was the son of Joanna, which was the son of Rhesa, which was the son of Zorobabel, which was the son of Salathiel, which was the son of Neri,
+\goodbreak{}\vref{28}\nobreak{}Which was the son of Melchi, which was the son of Addi, which was the son of Cosam, which was the son of Elmodam, which was the son of Er,
+\goodbreak{}\vref{29}\nobreak{}Which was the son of Jose, which was the son of Eliezer, which was the son of Jorim, which was the son of Matthat, which was the son of Levi,
+\goodbreak{}\vref{30}\nobreak{}Which was the son of Simeon, which was the son of Juda, which was the son of Joseph, which was the son of Jonan, which was the son of Eliakim,
+\goodbreak{}\vref{31}\nobreak{}Which was the son of Melea, which was the son of Menan, which was the son of Mattatha, which was the son of Nathan, which was the son of David,
+\goodbreak{}\vref{32}\nobreak{}Which was the son of Jesse, which was the son of Obed, which was the son of Booz, which was the son of Salmon, which was the son of Naasson,
+\goodbreak{}\vref{33}\nobreak{}Which was the son of Aminadab, which was the son of Aram, which was the son of Esrom, which was the son of Phares, which was the son of Juda,
+\goodbreak{}\vref{34}\nobreak{}Which was the son of Jacob, which was the son of Isaac, which was the son of Abraham, which was the son of Thara, which was the son of Nachor,
+\goodbreak{}\vref{35}\nobreak{}Which was the son of Saruch, which was the son of Ragau, which was the son of Phalec, which was the son of Heber, which was the son of Sala,
+\goodbreak{}\vref{36}\nobreak{}Which was the son of Cainan, which was the son of Arphaxad, which was the son of Sem, which was the son of Noe, which was the son of Lamech,
+\goodbreak{}\vref{37}\nobreak{}Which was the son of Mathusala, which was the son of Enoch, which was the son of Jared, which was the son of Maleleel, which was the son of Cainan,
+\goodbreak{}\vref{38}\nobreak{}Which was the son of Enos, which was the son of Seth, which was the son of Adam, which was the son of God.
+
+\goodbreak{}\vref{4:1}\nobreak{}And Jesus being full of the Holy Ghost returned from Jordan, and was led by the Spirit into the wilderness,
+\goodbreak{}\vref{2}\nobreak{}Being forty days tempted of the devil. And in those days he did eat nothing: and when they were ended, he afterward hungered.
+\goodbreak{}\vref{3}\nobreak{}And the devil said unto him, If thou be the Son of God, command this stone that it be made bread.
+\goodbreak{}\vref{4}\nobreak{}And Jesus answered him, saying, It is written, That man shall not live by bread alone, but by every word of God.
+\goodbreak{}\vref{5}\nobreak{}And the devil, taking him up into an high mountain, shewed unto him all the kingdoms of the world in a moment of time.
+\goodbreak{}\vref{6}\nobreak{}And the devil said unto him, All this power will I give thee, and the glory of them: for that is delivered unto me; and to whomsoever I will I give it.
+\goodbreak{}\vref{7}\nobreak{}If thou therefore wilt worship me, all shall be thine.
+\goodbreak{}\vref{8}\nobreak{}And Jesus answered and said unto him, Get thee behind me, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve.
+\goodbreak{}\vref{9}\nobreak{}And he brought him to Jerusalem, and set him on a pinnacle of the temple, and said unto him, If thou be the Son of God, cast thyself down from hence:
+\goodbreak{}\vref{10}\nobreak{}For it is written, He shall give his angels charge over thee, to keep thee:
+\goodbreak{}\vref{11}\nobreak{}And in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone.
+\goodbreak{}\vref{12}\nobreak{}And Jesus answering said unto him, It is said, Thou shalt not tempt the Lord thy God.
+\goodbreak{}\vref{13}\nobreak{}And when the devil had ended all the temptation, he departed from him for a season.
+\goodbreak{}\vref{14}\nobreak{}And Jesus returned in the power of the Spirit into Galilee: and there went out a fame of him through all the region round about.
+\goodbreak{}\vref{15}\nobreak{}And he taught in their synagogues, being glorified of all.
+
+\goodbreak{}\vref{Jn 3:1}\nobreak{}There was a man of the Pharisees, named Nicodemus, a ruler of the Jews:
+\goodbreak{}\vref{2}\nobreak{}The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him.
+\goodbreak{}\vref{3}\nobreak{}Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.
+\goodbreak{}\vref{4}\nobreak{}Nicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his mother's womb, and be born?
+\goodbreak{}\vref{5}\nobreak{}Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.
+\goodbreak{}\vref{6}\nobreak{}That which is born of the flesh is flesh; and that which is born of the Spirit is spirit.
+\goodbreak{}\vref{7}\nobreak{}Marvel not that I said unto thee, Ye must be born again.
+\goodbreak{}\vref{8}\nobreak{}The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit.
+\goodbreak{}\vref{9}\nobreak{}Nicodemus answered and said unto him, How can these things be?
+
+\goodbreak{}\vref{10}\nobreak{}Jesus answered and said unto him, Art thou a master of Israel, and knowest not these things?
+\goodbreak{}\vref{11}\nobreak{}Verily, verily, I say unto thee, We speak that we do know, and testify that we have seen; and ye receive not our witness.
+\goodbreak{}\vref{12}\nobreak{}If I have told you earthly things, and ye believe not, how shall ye believe, if I tell you of heavenly things?
+\goodbreak{}\vref{13}\nobreak{}And no man hath ascended up to heaven, but he that came down from heaven, even the Son of man which is in heaven.
+\goodbreak{}\vref{14}\nobreak{}And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up:
+\goodbreak{}\vref{15}\nobreak{}That whosoever believeth in him should not perish, but have eternal life.
+\goodbreak{}\vref{16}\nobreak{}For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
+\goodbreak{}\vref{17}\nobreak{}For God sent not his Son into the world to condemn the world; but that the world through him might be saved.
+\goodbreak{}\vref{18}\nobreak{}He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God.
+\goodbreak{}\vref{19}\nobreak{}And this is the condemnation, that light is come into the world, and men loved darkness rather than light, because their deeds were evil.\gap{}
+
+\goodbreak{}\vref{6:1}\nobreak{}After these things Jesus went over the sea of Galilee, which is the sea of Tiberias.
+\goodbreak{}\vref{2}\nobreak{}And a great multitude followed him, because they saw his miracles which he did on them that were diseased.
+\gap{}\goodbreak{}\vref{28}\nobreak{}Then said they unto him, What shall we do, that we might work the works of God?
+\goodbreak{}\vref{29}\nobreak{}Jesus answered and said unto them, This is the work of God, that ye believe on him whom he hath sent.
+\goodbreak{}\vref{30}\nobreak{}They said therefore unto him, What sign shewest thou then, that we may see, and believe thee? what dost thou work?
+\goodbreak{}\vref{31}\nobreak{}Our fathers did eat manna in the desert; as it is written, He gave them bread from heaven to eat.
+\gap{}\goodbreak{}\vref{35}\nobreak{}And Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst.
+\gap{}\goodbreak{}\vref{37}\nobreak{}All that the Father giveth me shall come to me; and him that cometh to me I will in no wise cast out.
+\gap{}\goodbreak{}\vref{40}\nobreak{}And this is the will of him that sent me, that every one which seeth the Son, and believeth on him, may have everlasting life: and I will raise him up at the last day.
+\gap{}\goodbreak{}\vref{51}\nobreak{}I am the living bread which came down from heaven: if any man eat of this bread, he shall live for ever: and the bread that I will give is my flesh, which I will give for the life of the world.
+
+\goodbreak{}\vref{52}\nobreak{}The Jews therefore strove among themselves, saying, How can this man give us his flesh to eat?
+\goodbreak{}\vref{53}\nobreak{}Then Jesus said unto them, Verily, verily, I say unto you, Except ye eat the flesh of the Son of man, and drink his blood, ye have no life in you.
+\gap{}\goodbreak{}\vref{57}\nobreak{}As the living Father hath sent me, and I live by the Father: so he that eateth me, even he shall live by me.
+\goodbreak{}\vref{58}\nobreak{}This is that bread which came down from heaven: not as your fathers did eat manna, and are dead: he that eateth of this bread shall live for ever.
+\gap{}\goodbreak{}\vref{66}\nobreak{}From that time many of his disciples went back, and walked no more with him.
+\goodbreak{}\vref{67}\nobreak{}Then said Jesus unto the twelve, Will ye also go away?
+\goodbreak{}\vref{68}\nobreak{}Then Simon Peter answered him, Lord, to whom shall we go? thou hast the words of eternal life.
+\goodbreak{}\vref{69}\nobreak{}And we believe and are sure that thou art that Christ, the Son of the living God.
+\goodbreak{}\vref{70}\nobreak{}Jesus answered them, Have not I chosen you twelve, and one of you is a devil?
+\goodbreak{}\vref{71}\nobreak{}He spake of Judas Iscariot the son of Simon: for he it was that should betray him, being one of the twelve.\gap{}
+
+\goodbreak{}\vref{10:7}\nobreak{}Then said Jesus unto them again, Verily, verily, I say unto you, I am the door of the sheep.
+\goodbreak{}\vref{8}\nobreak{}All that ever came before me are thieves and robbers: but the sheep did not hear them.
+\goodbreak{}\vref{9}\nobreak{}I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture.
+\goodbreak{}\vref{10}\nobreak{}The thief cometh not, but for to steal, and to kill, and to destroy: I am come that they might have life, and that they might have it more abundantly.
+\goodbreak{}\vref{11}\nobreak{}I am the good shepherd: the good shepherd giveth his life for the sheep.
+\goodbreak{}\vref{12}\nobreak{}But he that is an hireling, and not the shepherd, whose own the sheep are not, seeth the wolf coming, and leaveth the sheep, and fleeth: and the wolf catcheth them, and scattereth the sheep.
+\goodbreak{}\vref{13}\nobreak{}The hireling fleeth, because he is an hireling, and careth not for the sheep.
+\goodbreak{}\vref{14}\nobreak{}I am the good shepherd, and know my sheep, and am known of mine.
+\goodbreak{}\vref{15}\nobreak{}As the Father knoweth me, even so know I the Father: and I lay down my life for the sheep.
+\goodbreak{}\vref{16}\nobreak{}And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.
+\goodbreak{}\vref{17}\nobreak{}Therefore doth my Father love me, because I lay down my life, that I might take it again.
+\goodbreak{}\vref{18}\nobreak{}No man taketh it from me, but I lay it down of myself. I have power to lay it down, and I have power to take it again. This commandment have I received of my Father.\gap{}
+
+\goodbreak{}\vref{11:1}\nobreak{}Now a certain man was sick, named Lazarus, of Bethany, the town of Mary and her sister Martha.
+\gap{}\goodbreak{}\vref{3}\nobreak{}Therefore his sisters sent unto him, saying, Lord, behold, he whom thou lovest is sick.
+\goodbreak{}\vref{4}\nobreak{}When Jesus heard that, he said, This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby.
+\goodbreak{}\vref{5}\nobreak{}Now Jesus loved Martha, and her sister, and Lazarus.
+\goodbreak{}\vref{6}\nobreak{}When he had heard therefore that he was sick, he abode two days still in the same place where he was.
+\goodbreak{}\vref{7}\nobreak{}Then after that saith he to his disciples, Let us go into Judaea again.
+\gap{}\goodbreak{}\vref{17}\nobreak{}Then when Jesus came, he found that he had lain in the grave four days already.\gap{}
+
+\goodbreak{}\vref{20}\nobreak{}Then Martha, as soon as she heard that Jesus was coming, went and met him: but Mary sat still in the house.
+\goodbreak{}\vref{21}\nobreak{}Then said Martha unto Jesus, Lord, if thou hadst been here, my brother had not died.
+\goodbreak{}\vref{22}\nobreak{}But I know, that even now, whatsoever thou wilt ask of God, God will give it thee.
+\goodbreak{}\vref{23}\nobreak{}Jesus saith unto her, Thy brother shall rise again.
+\goodbreak{}\vref{24}\nobreak{}Martha saith unto him, I know that he shall rise again in the resurrection at the last day.
+\goodbreak{}\vref{25}\nobreak{}Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:
+\goodbreak{}\vref{26}\nobreak{}And whosoever liveth and believeth in me shall never die. Believest thou this?
+\goodbreak{}\vref{27}\nobreak{}She saith unto him, Yea, Lord: I believe that thou art the Christ, the Son of God, which should come into the world.
+\goodbreak{}\vref{28}\nobreak{}And when she had so said, she went her way, and called Mary her sister secretly, saying, The Master is come, and calleth for thee.
+\goodbreak{}\vref{29}\nobreak{}As soon as she heard that, she arose quickly, and came unto him.\gap{}
+
+\goodbreak{}\vref{32}\nobreak{}Then when Mary was come where Jesus was, and saw him, she fell down at his feet, saying unto him, Lord, if thou hadst been here, my brother had not died.
+\goodbreak{}\vref{33}\nobreak{}When Jesus therefore saw her weeping, and the Jews also weeping which came with her, he groaned in the spirit, and was troubled.
+\goodbreak{}\vref{34}\nobreak{}And said, Where have ye laid him? They said unto him, Lord, come and see.
+\goodbreak{}\vref{35}\nobreak{}Jesus wept.
+\goodbreak{}\vref{36}\nobreak{}Then said the Jews, Behold how he loved him!
+\goodbreak{}\vref{37}\nobreak{}And some of them said, Could not this man, which opened the eyes of the blind, have caused that even this man should not have died?
+\goodbreak{}\vref{38}\nobreak{}Jesus therefore again groaning in himself cometh to the grave. It was a cave, and a stone lay upon it.
+\goodbreak{}\vref{39}\nobreak{}Jesus said, Take ye away the stone. Martha, the sister of him that was dead, saith unto him, Lord, by this time he stinketh: for he hath been dead four days.
+\goodbreak{}\vref{40}\nobreak{}Jesus saith unto her, Said I not unto thee, that, if thou wouldest believe, thou shouldest see the glory of God?
+\goodbreak{}\vref{41}\nobreak{}Then they took away the stone from the place where the dead was laid. And Jesus lifted up his eyes, and said, Father, I thank thee that thou hast heard me.
+\goodbreak{}\vref{42}\nobreak{}And I knew that thou hearest me always: but because of the people which stand by I said it, that they may believe that thou hast sent me.
+\goodbreak{}\vref{43}\nobreak{}And when he thus had spoken, he cried with a loud voice, Lazarus, come forth.
+\goodbreak{}\vref{44}\nobreak{}And he that was dead came forth, bound hand and foot with graveclothes: and his face was bound about with a napkin. Jesus saith unto them, Loose him, and let him go.
+
+\goodbreak{}\vref{45}\nobreak{}Then many of the Jews which came to Mary, and had seen the things which Jesus did, believed on him.
+\goodbreak{}\vref{46}\nobreak{}But some of them went their ways to the Pharisees, and told them what things Jesus had done.
+\goodbreak{}\vref{47}\nobreak{}Then gathered the chief priests and the Pharisees a council, and said, What do we? for this man doeth many miracles.
+\goodbreak{}\vref{48}\nobreak{}If we let him thus alone, all men will believe on him: and the Romans shall come and take away both our place and nation.
+\goodbreak{}\vref{49}\nobreak{}And one of them, named Caiaphas, being the high priest that same year, said unto them, Ye know nothing at all,
+\goodbreak{}\vref{50}\nobreak{}Nor consider that it is expedient for us, that one man should die for the people, and that the whole nation perish not.
+\goodbreak{}\vref{51}\nobreak{}And this spake he not of himself: but being high priest that year, he prophesied that Jesus should die for that nation;
+\goodbreak{}\vref{52}\nobreak{}And not for that nation only, but that also he should gather together in one the children of God that were scattered abroad.
+\goodbreak{}\vref{53}\nobreak{}Then from that day forth they took counsel together for to put him to death.\gap{}
+
+\tocentry[level=1, number=6]{Treachery & Triumph}
+\heading{Treachery & Triumph}
+
+\goodbreak{}\vref{12:12}\nobreak{}On the next day much people that were come to the feast, when they heard that Jesus was coming to Jerusalem,
+\goodbreak{}\vref{13}\nobreak{}Took branches of palm trees, and went forth to meet him, and cried, Hosanna: Blessed is the King of Israel that cometh in the name of the Lord.
+\goodbreak{}\vref{14}\nobreak{}And Jesus, when he had found a young ass, sat thereon; as it is written,
+\goodbreak{}\vref{15}\nobreak{}Fear not, daughter of Sion: behold, thy King cometh, sitting on an ass's colt.\gap{}
+
+\goodbreak{}\vref{37}\nobreak{}But though he had done so many miracles before them, yet they believed not on him:
+\goodbreak{}\vref{38}\nobreak{}That the saying of Esaias the prophet might be fulfilled, which he spake, Lord, who hath believed our report? and to whom hath the arm of the Lord been revealed?
+\gap{}\goodbreak{}\vref{42}\nobreak{}Nevertheless among the chief rulers also many believed on him; but because of the Pharisees they did not confess him, lest they should be put out of the synagogue:
+\goodbreak{}\vref{43}\nobreak{}For they loved the praise of men more than the praise of God.
+
+\goodbreak{}\vref{44}\nobreak{}Jesus cried and said, He that believeth on me, believeth not on me, but on him that sent me.
+\goodbreak{}\vref{45}\nobreak{}And he that seeth me seeth him that sent me.
+\goodbreak{}\vref{46}\nobreak{}I am come a light into the world, that whosoever believeth on me should not abide in darkness.
+\goodbreak{}\vref{47}\nobreak{}And if any man hear my words, and believe not, I judge him not: for I came not to judge the world, but to save the world.
+
+\goodbreak{}\vref{13:1}\nobreak{}Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, having loved his own which were in the world, he loved them unto the end.
+\gap{}\goodbreak{}\vref{Lk 22:8}\nobreak{}And he sent Peter and John, saying, Go and prepare us the passover, that we may eat.
+\gap{}\goodbreak{}\vref{14}\nobreak{}And when the hour was come, he sat down, and the twelve apostles with him.
+\goodbreak{}\vref{15}\nobreak{}And he said unto them, With desire I have desired to eat this passover with you before I suffer:
+\gap{}\goodbreak{}\vref{Mk 14:22}\nobreak{}And as they did eat, Jesus took bread, and blessed, and brake it, and gave to them, and said, Take, eat: this is my body.
+\goodbreak{}\vref{23}\nobreak{}And he took the cup, and when he had given thanks, he gave it to them: and they all drank of it.
+\goodbreak{}\vref{24}\nobreak{}And he said unto them, This is my blood of the new testament, which is shed for many.
+\goodbreak{}\vref{25}\nobreak{}Verily I say unto you, I will drink no more of the fruit of the vine, until that day that I drink it new in the kingdom of God.
+\goodbreak{}\vref{26}\nobreak{}And when they had sung an hymn, they went out into the mount of Olives.
+\goodbreak{}\vref{27}\nobreak{}And Jesus saith unto them, All ye shall be offended because of me this night: for it is written, I will smite the shepherd, and the sheep shall be scattered.
+\goodbreak{}\vref{28}\nobreak{}But after that I am risen, I will go before you into Galilee.
+
+\goodbreak{}\vref{Jn 18:3}\nobreak{}Judas then, having received a band of men and officers from the chief priests and Pharisees, cometh thither with lanterns and torches and weapons.
+\goodbreak{}\vref{4}\nobreak{}Jesus therefore, knowing all things that should come upon him, went forth, and said unto them, Whom seek ye?
+\goodbreak{}\vref{5}\nobreak{}They answered him, Jesus of Nazareth. Jesus saith unto them, I am he. And Judas also, which betrayed him, stood with them.
+\goodbreak{}\vref{6}\nobreak{}As soon then as he had said unto them, I am he, they went backward, and fell to the ground.
+\goodbreak{}\vref{7}\nobreak{}Then asked he them again, Whom seek ye? And they said, Jesus of Nazareth.
+\goodbreak{}\vref{8}\nobreak{}Jesus answered, I have told you that I am he: if therefore ye seek me, let these go their way:
+\goodbreak{}\vref{9}\nobreak{}That the saying might be fulfilled, which he spake, Of them which thou gavest me have I lost none.
+\gap{}\goodbreak{}\vref{12}\nobreak{}Then the band and the captain and officers of the Jews took Jesus, and bound him,
+
+\goodbreak{}\vref{13}\nobreak{}And led him away to Annas first; for he was father in law to Caiaphas, which was the high priest that same year.
+\goodbreak{}\vref{14}\nobreak{}Now Caiaphas was he, which gave counsel to the Jews, that it was expedient that one man should die for the people.
+\gap{}\goodbreak{}\vref{Mt 26:59}\nobreak{}Now the chief priests, and elders, and all the council, sought false witness against Jesus, to put him to death;
+\goodbreak{}\vref{60}\nobreak{}But found none: yea, though many false witnesses came, yet found they none. At the last came two false witnesses,
+\goodbreak{}\vref{61}\nobreak{}And said, This fellow said, I am able to destroy the temple of God, and to build it in three days.
+\goodbreak{}\vref{62}\nobreak{}And the high priest arose, and said unto him, Answerest thou nothing? what is it which these witness against thee?
+\goodbreak{}\vref{63}\nobreak{}But Jesus held his peace, And the high priest answered and said unto him, I adjure thee by the living God, that thou tell us whether thou be the Christ, the Son of God.
+\goodbreak{}\vref{64}\nobreak{}Jesus saith unto him, Thou hast said: nevertheless I say unto you, Hereafter shall ye see the Son of man sitting on the right hand of power, and coming in the clouds of heaven.
+\goodbreak{}\vref{65}\nobreak{}Then the high priest rent his clothes, saying, He hath spoken blasphemy; what further need have we of witnesses? behold, now ye have heard his blasphemy.\gap{}
+
+\goodbreak{}\vref{27:1}\nobreak{}When the morning was come, all the chief priests and elders of the people took counsel against Jesus to put him to death:
+\goodbreak{}\vref{2}\nobreak{}And when they had bound him, they led him away, and delivered him to Pontius Pilate the governor.
+\gap{}\goodbreak{}\vref{Jn 18:29}\nobreak{}Pilate then went out unto them, and said, What accusation bring ye against this man?
+\goodbreak{}\vref{30}\nobreak{}They answered and said unto him, If he were not a malefactor, we would not have delivered him up unto thee.
+\goodbreak{}\vref{31}\nobreak{}Then said Pilate unto them, Take ye him, and judge him according to your law. The Jews therefore said unto him, It is not lawful for us to put any man to death:
+\goodbreak{}\vref{32}\nobreak{}That the saying of Jesus might be fulfilled, which he spake, signifying what death he should die.
+\goodbreak{}\vref{33}\nobreak{}Then Pilate entered into the judgment hall again, and called Jesus, and said unto him, Art thou the King of the Jews?
+\goodbreak{}\vref{34}\nobreak{}Jesus answered him, Sayest thou this thing of thyself, or did others tell it thee of me?
+\goodbreak{}\vref{35}\nobreak{}Pilate answered, Am I a Jew? Thine own nation and the chief priests have delivered thee unto me: what hast thou done?
+\goodbreak{}\vref{36}\nobreak{}Jesus answered, My kingdom is not of this world: if my kingdom were of this world, then would my servants fight, that I should not be delivered to the Jews: but now is my kingdom not from hence.
+\goodbreak{}\vref{37}\nobreak{}Pilate therefore said unto him, Art thou a king then? Jesus answered, Thou sayest that I am a king. To this end was I born, and for this cause came I into the world, that I should bear witness unto the truth. Every one that is of the truth heareth my voice.
+
+\goodbreak{}\vref{38}\nobreak{}Pilate saith unto him, What is truth? And when he had said this, he went out again unto the Jews, and saith unto them, I find in him no fault at all.
+\goodbreak{}\vref{39}\nobreak{}But ye have a custom, that I should release unto you one at the passover: will ye therefore that I release unto you the King of the Jews?
+\gap{}\goodbreak{}\vref{19:15}\nobreak{}But they cried out, Away with him, away with him, crucify him. Pilate saith unto them, Shall I crucify your King? The chief priests answered, We have no king but Caesar.
+\goodbreak{}\vref{16}\nobreak{}Then delivered he him therefore unto them to be crucified. And they took Jesus, and led him away.
+\goodbreak{}\vref{17}\nobreak{}And he bearing his cross went forth into a place called the place of a skull, which is called in the Hebrew Golgotha:
+\gap{}\goodbreak{}\vref{Mt 27:35}\nobreak{}And they crucified him, and parted his garments, casting lots: that it might be fulfilled which was spoken by the prophet, They parted my garments among them, and upon my vesture did they cast lots.
+\goodbreak{}\vref{36}\nobreak{}And sitting down they watched him there;
+\goodbreak{}\vref{37}\nobreak{}And set up over his head his accusation written, THIS IS JESUS THE KING OF THE JEWS.
+
+\goodbreak{}\vref{38}\nobreak{}Then were there two thieves crucified with him, one on the right hand, and another on the left.
+\goodbreak{}\vref{39}\nobreak{}And they that passed by reviled him, wagging their heads,
+\goodbreak{}\vref{40}\nobreak{}And saying, Thou that destroyest the temple, and buildest it in three days, save thyself. If thou be the Son of God, come down from the cross.
+\goodbreak{}\vref{41}\nobreak{}Likewise also the chief priests mocking him, with the scribes and elders, said,
+\goodbreak{}\vref{42}\nobreak{}He saved others; himself he cannot save. If he be the King of Israel, let him now come down from the cross, and we will believe him.
+\goodbreak{}\vref{43}\nobreak{}He trusted in God; let him deliver him now, if he will have him: for he said, I am the Son of God.
+\goodbreak{}\vref{44}\nobreak{}The thieves also, which were crucified with him, cast the same in his teeth.
+
+\goodbreak{}\vref{45}\nobreak{}Now from the sixth hour there was darkness over all the land unto the ninth hour.
+\goodbreak{}\vref{46}\nobreak{}And about the ninth hour Jesus cried with a loud voice, saying, Eli, Eli, lama sabachthani? that is to say, My God, my God, why hast thou forsaken me?
+\goodbreak{}\vref{47}\nobreak{}Some of them that stood there, when they heard that, said, This man calleth for Elias.
+\goodbreak{}\vref{48}\nobreak{}And straightway one of them ran, and took a spunge, and filled it with vinegar, and put it on a reed, and gave him to drink.
+\goodbreak{}\vref{49}\nobreak{}The rest said, Let be, let us see whether Elias will come to save him.
+\goodbreak{}\vref{50}\nobreak{}Jesus, when he had cried again with a loud voice, yielded up the ghost.
+\goodbreak{}\vref{51}\nobreak{}And, behold, the veil of the temple was rent in twain from the top to the bottom; and the earth did quake, and the rocks rent;
+\gap{}\goodbreak{}\vref{54}\nobreak{}Now when the centurion, and they that were with him, watching Jesus, saw the earthquake, and those things that were done, they feared greatly, saying, Truly this was the Son of God.\gap{}
+
+\goodbreak{}\vref{57}\nobreak{}When the even was come, there came a rich man of Arimathaea, named Joseph, who also himself was Jesus' disciple:
+\goodbreak{}\vref{58}\nobreak{}He went to Pilate, and begged the body of Jesus. Then Pilate commanded the body to be delivered.
+\goodbreak{}\vref{59}\nobreak{}And when Joseph had taken the body, he wrapped it in a clean linen cloth,
+\goodbreak{}\vref{60}\nobreak{}And laid it in his own new tomb, which he had hewn out in the rock: and he rolled a great stone to the door of the sepulchre, and departed.
+\gap{}\goodbreak{}\vref{62}\nobreak{}Now the next day, that followed the day of the preparation, the chief priests and Pharisees came together unto Pilate,
+\goodbreak{}\vref{63}\nobreak{}Saying, Sir, we remember that that deceiver said, while he was yet alive, After three days I will rise again.
+\goodbreak{}\vref{64}\nobreak{}Command therefore that the sepulchre be made sure until the third day, lest his disciples come by night, and steal him away, and say unto the people, He is risen from the dead: so the last error shall be worse than the first.
+\goodbreak{}\vref{65}\nobreak{}Pilate said unto them, Ye have a watch: go your way, make it as sure as ye can.
+\goodbreak{}\vref{66}\nobreak{}So they went, and made the sepulchre sure, sealing the stone, and setting a watch.
+
+\goodbreak{}\vref{28:1}\nobreak{}In the end of the sabbath, as it began to dawn toward the first day of the week, came Mary Magdalene and the other Mary to see the sepulchre.
+\goodbreak{}\vref{2}\nobreak{}And, behold, there was a great earthquake: for the angel of the Lord descended from heaven, and came and rolled back the stone from the door, and sat upon it.
+\goodbreak{}\vref{3}\nobreak{}His countenance was like lightning, and his raiment white as snow:
+\goodbreak{}\vref{4}\nobreak{}And for fear of him the keepers did shake, and became as dead men.
+\goodbreak{}\vref{5}\nobreak{}And the angel answered and said unto the women, Fear not ye: for I know that ye seek Jesus, which was crucified.
+\goodbreak{}\vref{6}\nobreak{}He is not here: for he is risen, as he said. Come, see the place where the Lord lay.
+\goodbreak{}\vref{7}\nobreak{}And go quickly, and tell his disciples that he is risen from the dead; and, behold, he goeth before you into Galilee; there shall ye see him: lo, I have told you.
+\goodbreak{}\vref{8}\nobreak{}And they departed quickly from the sepulchre with fear and great joy; and did run to bring his disciples word.\gap{}
+
+\goodbreak{}\vref{16}\nobreak{}Then the eleven disciples went away into Galilee, into a mountain where Jesus had appointed them.
+\goodbreak{}\vref{17}\nobreak{}And when they saw him, they worshipped him: but some doubted.
+\goodbreak{}\vref{18}\nobreak{}And Jesus came and spake unto them, saying, All power is given unto me in heaven and in earth.
+\goodbreak{}\vref{19}\nobreak{}Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:
+\goodbreak{}\vref{20}\nobreak{}Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.
+\gap{}\goodbreak{}\vref{Act 1:9}\nobreak{}And when he had spoken these things, while they beheld, he was taken up; and a cloud received him out of their sight.
+\goodbreak{}\vref{10}\nobreak{}And while they looked stedfastly toward heaven as he went up, behold, two men stood by them in white apparel;
+\goodbreak{}\vref{11}\nobreak{}Which also said, Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven.
+\goodbreak{}\vref{12}\nobreak{}Then returned they unto Jerusalem from the mount called Olivet, which is from Jerusalem a sabbath day's journey.
+
+\tocentry[level=1, number=6]{Power & Preaching}
+\heading{Power & Preaching}
+
+\goodbreak{}\vref{2:1}\nobreak{}And when the day of Pentecost was fully come, they were all with one accord in one place.
+\goodbreak{}\vref{2}\nobreak{}And suddenly there came a sound from heaven as of a rushing mighty wind, and it filled all the house where they were sitting.
+\goodbreak{}\vref{3}\nobreak{}And there appeared unto them cloven tongues like as of fire, and it sat upon each of them.
+\goodbreak{}\vref{4}\nobreak{}And they were all filled with the Holy Ghost, and began to speak with other tongues, as the Spirit gave them utterance.
+\goodbreak{}\vref{5}\nobreak{}And there were dwelling at Jerusalem Jews, devout men, out of every nation under heaven.
+\goodbreak{}\vref{6}\nobreak{}Now when this was noised abroad, the multitude came together, and were confounded, because that every man heard them speak in his own language.\gap{}
+
+\goodbreak{}\vref{14}\nobreak{}But Peter, standing up with the eleven, lifted up his voice, and said unto them, Ye men of Judaea, and all ye that dwell at Jerusalem, be this known unto you, and hearken to my words:
+\goodbreak{}\vref{15}\nobreak{}For these are not drunken, as ye suppose, seeing it is but the third hour of the day.
+\goodbreak{}\vref{16}\nobreak{}But this is that which was spoken by the prophet Joel;
+\goodbreak{}\vref{17}\nobreak{}And it shall come to pass in the last days, saith God, I will pour out of my Spirit upon all flesh: and your sons and your daughters shall prophesy, and your young men shall see visions, and your old men shall dream dreams:
+\goodbreak{}\vref{18}\nobreak{}And on my servants and on my handmaidens I will pour out in those days of my Spirit; and they shall prophesy:
+\gap{}\goodbreak{}\vref{21}\nobreak{}And it shall come to pass, that whosoever shall call on the name of the Lord shall be saved.
+\goodbreak{}\vref{22}\nobreak{}Ye men of Israel, hear these words; Jesus of Nazareth, a man approved of God among you by miracles and wonders and signs, which God did by him in the midst of you, as ye yourselves also know:
+\goodbreak{}\vref{23}\nobreak{}Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain:
+\goodbreak{}\vref{24}\nobreak{}Whom God hath raised up, having loosed the pains of death: because it was not possible that he should be holden of it.
+\gap{}\goodbreak{}\vref{36}\nobreak{}Therefore let all the house of Israel know assuredly, that God hath made the same Jesus, whom ye have crucified, both Lord and Christ.
+
+\goodbreak{}\vref{37}\nobreak{}Now when they heard this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men and brethren, what shall we do?
+\goodbreak{}\vref{38}\nobreak{}Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.
+\goodbreak{}\vref{39}\nobreak{}For the promise is unto you, and to your children, and to all that are afar off, even as many as the LORD our God shall call.
+\gap{}\goodbreak{}\vref{41}\nobreak{}Then they that gladly received his word were baptized: and the same day there were added unto them about three thousand souls.
+\goodbreak{}\vref{42}\nobreak{}And they continued stedfastly in the apostles' doctrine and fellowship, and in breaking of bread, and in prayers.
+\gap{}\goodbreak{}\vref{47}\nobreak{}Praising God, and having favour with all the people. And the Lord added to the church daily such as should be saved.
+
+\goodbreak{}\vref{10:1}\nobreak{}There was a certain man in Caesarea called Cornelius, a centurion of the band called the Italian band,
+\goodbreak{}\vref{2}\nobreak{}A devout man, and one that feared God with all his house, which gave much alms to the people, and prayed to God alway.
+\goodbreak{}\vref{3}\nobreak{}He saw in a vision evidently about the ninth hour of the day an angel of God coming in to him, and saying unto him, Cornelius.
+\goodbreak{}\vref{4}\nobreak{}And when he looked on him, he was afraid, and said, What is it, Lord?  And he said unto him, Thy prayers and thine alms are come up for a memorial before God.
+\goodbreak{}\vref{5}\nobreak{}And now send men to Joppa, and call for one Simon, whose surname is Peter:
+\goodbreak{}\vref{6}\nobreak{}He lodgeth with one Simon a tanner, whose house is by the sea side: he shall tell thee what thou oughtest to do.
+\goodbreak{}\vref{7}\nobreak{}And when the angel which spake unto Cornelius was departed, he called two of his household servants, and a devout soldier of them that waited on him continually;
+\goodbreak{}\vref{8}\nobreak{}And when he had declared all these things unto them, he sent them to Joppa.
+
+\goodbreak{}\vref{9}\nobreak{}On the morrow, as they went on their journey, and drew nigh unto the city, Peter went up upon the housetop to pray about the sixth hour:
+\goodbreak{}\vref{10}\nobreak{}And he became very hungry, and would have eaten: but while they made ready, he fell into a trance,
+\goodbreak{}\vref{11}\nobreak{}And saw heaven opened, and a certain vessel descending upon him, as it had been a great sheet knit at the four corners, and let down to the earth:
+\goodbreak{}\vref{12}\nobreak{}Wherein were all manner of fourfooted beasts of the earth, and wild beasts, and creeping things, and fowls of the air.
+\goodbreak{}\vref{13}\nobreak{}And there came a voice to him, Rise, Peter; kill, and eat.
+\goodbreak{}\vref{14}\nobreak{}But Peter said, Not so, Lord; for I have never eaten any thing that is common or unclean.
+\goodbreak{}\vref{15}\nobreak{}And the voice spake unto him again the second time, What God hath cleansed, that call not thou common.
+\goodbreak{}\vref{16}\nobreak{}This was done thrice: and the vessel was received up again into heaven.
+\goodbreak{}\vref{17}\nobreak{}Now while Peter doubted in himself what this vision which he had seen should mean, behold, the men which were sent from Cornelius had made enquiry for Simon's house, and stood before the gate,
+\goodbreak{}\vref{18}\nobreak{}And called, and asked whether Simon, which was surnamed Peter, were lodged there.
+\goodbreak{}\vref{19}\nobreak{}While Peter thought on the vision, the Spirit said unto him, Behold, three men seek thee.
+\goodbreak{}\vref{20}\nobreak{}Arise therefore, and get thee down, and go with them, doubting nothing: for I have sent them.
+\goodbreak{}\vref{21}\nobreak{}Then Peter went down to the men which were sent unto him from Cornelius; and said, Behold, I am he whom ye seek: what is the cause wherefore ye are come?
+\goodbreak{}\vref{22}\nobreak{}And they said, Cornelius the centurion, a just man, and one that feareth God, and of good report among all the nation of the Jews, was warned from God by an holy angel to send for thee into his house, and to hear words of thee.
+\goodbreak{}\vref{23}\nobreak{}Then called he them in, and lodged them. And on the morrow Peter went away with them, and certain brethren from Joppa accompanied him.
+
+\goodbreak{}\vref{24}\nobreak{}And the morrow after they entered into Caesarea. And Cornelius waited for them, and he had called together his kinsmen and near friends.
+\goodbreak{}\vref{25}\nobreak{}And as Peter was coming in, Cornelius met him, and fell down at his feet, and worshipped him.
+\goodbreak{}\vref{26}\nobreak{}But Peter took him up, saying, Stand up; I myself also am a man.
+\goodbreak{}\vref{27}\nobreak{}And as he talked with him, he went in, and found many that were come together.
+\goodbreak{}\vref{28}\nobreak{}And he said unto them, Ye know how that it is an unlawful thing for a man that is a Jew to keep company, or come unto one of another nation; but God hath shewed me that I should not call any man common or unclean.
+\goodbreak{}\vref{29}\nobreak{}Therefore came I unto you without gainsaying, as soon as I was sent for: I ask therefore for what intent ye have sent for me?
+\goodbreak{}\vref{30}\nobreak{}And Cornelius said, Four days ago I was fasting until this hour; and at the ninth hour I prayed in my house, and, behold, a man stood before me in bright clothing,
+\goodbreak{}\vref{31}\nobreak{}And said, Cornelius, thy prayer is heard, and thine alms are had in remembrance in the sight of God.
+\goodbreak{}\vref{32}\nobreak{}Send therefore to Joppa, and call hither Simon, whose surname is Peter; he is lodged in the house of one Simon a tanner by the sea side: who, when he cometh, shall speak unto thee.
+\goodbreak{}\vref{33}\nobreak{}Immediately therefore I sent to thee; and thou hast well done that thou art come. Now therefore are we all here present before God, to hear all things that are commanded thee of God.
+
+\goodbreak{}\vref{34}\nobreak{}Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons:
+\goodbreak{}\vref{35}\nobreak{}But in every nation he that feareth him, and worketh righteousness, is accepted with him.
+\goodbreak{}\vref{36}\nobreak{}The word which God sent unto the children of Israel, preaching peace by Jesus Christ: (he is Lord of all:)
+\goodbreak{}\vref{37}\nobreak{}That word, I say, ye know, which was published throughout all Judaea, and began from Galilee, after the baptism which John preached;
+\goodbreak{}\vref{38}\nobreak{}How God anointed Jesus of Nazareth with the Holy Ghost and with power: who went about doing good, and healing all that were oppressed of the devil; for God was with him.
+\goodbreak{}\vref{39}\nobreak{}And we are witnesses of all things which he did both in the land of the Jews, and in Jerusalem; whom they slew and hanged on a tree:
+\goodbreak{}\vref{40}\nobreak{}Him God raised up the third day, and shewed him openly;
+\goodbreak{}\vref{41}\nobreak{}Not to all the people, but unto witnesses chosen before God, even to us, who did eat and drink with him after he rose from the dead.
+\goodbreak{}\vref{42}\nobreak{}And he commanded us to preach unto the people, and to testify that it is he which was ordained of God to be the Judge of quick and dead.
+\goodbreak{}\vref{43}\nobreak{}To him give all the prophets witness, that through his name whosoever believeth in him shall receive remission of sins.
+
+\goodbreak{}\vref{44}\nobreak{}While Peter yet spake these words, the Holy Ghost fell on all them which heard the word.
+\goodbreak{}\vref{45}\nobreak{}And they of the circumcision which believed were astonished, as many as came with Peter, because that on the Gentiles also was poured out the gift of the Holy Ghost.
+\goodbreak{}\vref{46}\nobreak{}For they heard them speak with tongues, and magnify God. Then answered Peter,
+\goodbreak{}\vref{47}\nobreak{}Can any man forbid water, that these should not be baptized, which have received the Holy Ghost as well as we?
+\goodbreak{}\vref{48}\nobreak{}And he commanded them to be baptized in the name of the Lord. Then prayed they him to tarry certain days.\gap{}
+
+\goodbreak{}\vref{13:1}\nobreak{}Now there were in the church that was at Antioch certain prophets and teachers; as Barnabas, and Simeon that was called Niger, and Lucius of Cyrene, and Manaen, which had been brought up with Herod the tetrarch, and Saul.
+\goodbreak{}\vref{2}\nobreak{}As they ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them.
+\goodbreak{}\vref{3}\nobreak{}And when they had fasted and prayed, and laid their hands on them, they sent them away.
+\goodbreak{}\vref{4}\nobreak{}So they, being sent forth by the Holy Ghost, departed unto Seleucia; and from thence they sailed to Cyprus.
+\goodbreak{}\vref{5}\nobreak{}And when they were at Salamis, they preached the word of God in the synagogues of the Jews: and they had also John to their minister.
+\gap{}\goodbreak{}\vref{13}\nobreak{}Now when Paul and his company loosed from Paphos, they came to Perga in Pamphylia: and John departing from them returned to Jerusalem.
+\goodbreak{}\vref{14}\nobreak{}But when they departed from Perga, they came to Antioch in Pisidia, and went into the synagogue on the sabbath day, and sat down.
+
+\gap{}\goodbreak{}\vref{16}\nobreak{}Then Paul stood up, and beckoning with his hand said, Men of Israel, and ye that fear God, give audience.
+\gap{}\goodbreak{}\vref{32}\nobreak{}And we declare unto you glad tidings, how that the promise which was made unto the fathers,
+\goodbreak{}\vref{33}\nobreak{}God hath fulfilled the same unto us their children, in that he hath raised up Jesus again; as it is also written in the second psalm, Thou art my Son, this day have I begotten thee.
+\gap{}\goodbreak{}\vref{36}\nobreak{}For David, after he had served his own generation by the will of God, fell on sleep, and was laid unto his fathers, and saw corruption:
+\goodbreak{}\vref{37}\nobreak{}But he, whom God raised again, saw no corruption.
+\goodbreak{}\vref{38}\nobreak{}Be it known unto you therefore, men and brethren, that through this man is preached unto you the forgiveness of sins:
+\goodbreak{}\vref{39}\nobreak{}And by him all that believe are justified from all things, from which ye could not be justified by the law of Moses.\gap{}
+
+\goodbreak{}\vref{48}\nobreak{}And when the Gentiles heard this, they were glad, and glorified the word of the Lord: and as many as were ordained to eternal life believed.
+\goodbreak{}\vref{49}\nobreak{}And the word of the Lord was published throughout all the region.
+\goodbreak{}\vref{50}\nobreak{}But the Jews stirred up the devout and honourable women, and the chief men of the city, and raised persecution against Paul and Barnabas, and expelled them out of their coasts.
+\goodbreak{}\vref{51}\nobreak{}But they shook off the dust of their feet against them, and came unto Iconium.\gap{}
+
+\goodbreak{}\vref{14:21}\nobreak{}And when they had preached the gospel to that city, and had taught many, they returned again to Lystra, and to Iconium, and Antioch,
+\goodbreak{}\vref{22}\nobreak{}Confirming the souls of the disciples, and exhorting them to continue in the faith, and that we must through much tribulation enter into the kingdom of God.
+\goodbreak{}\vref{23}\nobreak{}And when they had ordained them elders in every church, and had prayed with fasting, they commended them to the Lord, on whom they believed.
+\goodbreak{}\vref{24}\nobreak{}And after they had passed throughout Pisidia, they came to Pamphylia.
+\goodbreak{}\vref{25}\nobreak{}And when they had preached the word in Perga, they went down into Attalia:
+\goodbreak{}\vref{26}\nobreak{}And thence sailed to Antioch, from whence they had been recommended to the grace of God for the work which they fulfilled.
+\goodbreak{}\vref{27}\nobreak{}And when they were come, and had gathered the church together, they rehearsed all that God had done with them, and how he had opened the door of faith unto the Gentiles.
+
+\tocentry[level=1, number=6]{Encouragement & Eternity}
+\heading{Encouragement & Eternity}
+
+\goodbreak{}\vref{Rev 1:1}\nobreak{}The Revelation of Jesus Christ, which God gave unto him, to shew unto his servants things which must shortly come to pass; and he sent and signified it by his angel unto his servant John:
+\goodbreak{}\vref{2}\nobreak{}Who bare record of the word of God, and of the testimony of Jesus Christ, and of all things that he saw.
+\goodbreak{}\vref{3}\nobreak{}Blessed is he that readeth, and they that hear the words of this prophecy, and keep those things which are written therein: for the time is at hand.
+\gap{}\goodbreak{}\vref{10}\nobreak{}I was in the Spirit on the Lord's day, and heard behind me a great voice, as of a trumpet,
+\gap{}\goodbreak{}\vref{12}\nobreak{}And I turned to see the voice that spake with me. And being turned, I saw seven golden candlesticks;
+\goodbreak{}\vref{13}\nobreak{}And in the midst of the seven candlesticks one like unto the Son of man, clothed with a garment down to the foot, and girt about the paps with a golden girdle.
+\goodbreak{}\vref{14}\nobreak{}His head and his hairs were white like wool, as white as snow; and his eyes were as a flame of fire;
+\goodbreak{}\vref{15}\nobreak{}And his feet like unto fine brass, as if they burned in a furnace; and his voice as the sound of many waters.
+\goodbreak{}\vref{16}\nobreak{}And he had in his right hand seven stars: and out of his mouth went a sharp twoedged sword: and his countenance was as the sun shineth in his strength.
+\goodbreak{}\vref{17}\nobreak{}And when I saw him, I fell at his feet as dead. And he laid his right hand upon me, saying unto me, Fear not; I am the first and the last:
+\goodbreak{}\vref{18}\nobreak{}I am he that liveth, and was dead; and, behold, I am alive for evermore, Amen; and have the keys of hell and of death.
+\goodbreak{}\vref{19}\nobreak{}Write the things which thou hast seen, and the things which are, and the things which shall be hereafter;
+
+\goodbreak{}\vref{4:2}\nobreak{}And immediately I was in the spirit: and, behold, a throne was set in heaven, and one sat on the throne.
+\gap{}\goodbreak{}\vref{4}\nobreak{}And round about the throne were four and twenty seats: and upon the seats I saw four and twenty elders sitting, clothed in white raiment; and they had on their heads crowns of gold.
+\goodbreak{}\vref{5}\nobreak{}And out of the throne proceeded lightnings and thunderings and voices: and there were seven lamps of fire burning before the throne, which are the seven Spirits of God.
+\gap{}\goodbreak{}\vref{10}\nobreak{}The four and twenty elders fall down before him that sat on the throne, and worship him that liveth for ever and ever, and cast their crowns before the throne, saying,
+\goodbreak{}\vref{11}\nobreak{}Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created.
+\goodbreak{}\vref{5:1}\nobreak{}And I saw in the right hand of him that sat on the throne a book written within and on the backside, sealed with seven seals.
+\goodbreak{}\vref{2}\nobreak{}And I saw a strong angel proclaiming with a loud voice, Who is worthy to open the book, and to loose the seals thereof?
+\goodbreak{}\vref{3}\nobreak{}And no man in heaven, nor in earth, neither under the earth, was able to open the book, neither to look thereon.
+\goodbreak{}\vref{4}\nobreak{}And I wept much, because no man was found worthy to open and to read the book, neither to look thereon.
+\goodbreak{}\vref{5}\nobreak{}And one of the elders saith unto me, Weep not: behold, the Lion of the tribe of Juda, the Root of David, hath prevailed to open the book, and to loose the seven seals thereof.
+\goodbreak{}\vref{6}\nobreak{}And I beheld, and, lo, in the midst of the throne and of the four beasts, and in the midst of the elders, stood a Lamb as it had been slain, having seven horns and seven eyes, which are the seven Spirits of God sent forth into all the earth.
+\goodbreak{}\vref{7}\nobreak{}And he came and took the book out of the right hand of him that sat upon the throne.
+\goodbreak{}\vref{8}\nobreak{}And when he had taken the book, the four beasts and four and twenty elders fell down before the Lamb, having every one of them harps, and golden vials full of odours, which are the prayers of saints.
+\goodbreak{}\vref{9}\nobreak{}And they sung a new song, saying, Thou art worthy to take the book, and to open the seals thereof: for thou wast slain, and hast redeemed us to God by thy blood out of every kindred, and tongue, and people, and nation;
+\goodbreak{}\vref{10}\nobreak{}And hast made us unto our God kings and priests: and we shall reign on the earth.
+
+\goodbreak{}\vref{12:1}\nobreak{}And there appeared a great wonder in heaven; a woman clothed with the sun, and the moon under her feet, and upon her head a crown of twelve stars:
+\goodbreak{}\vref{2}\nobreak{}And she being with child cried, travailing in birth, and pained to be delivered.
+\goodbreak{}\vref{3}\nobreak{}And there appeared another wonder in heaven; and behold a great red dragon, having seven heads and ten horns, and seven crowns upon his heads.
+\goodbreak{}\vref{4}\nobreak{}And his tail drew the third part of the stars of heaven, and did cast them to the earth: and the dragon stood before the woman which was ready to be delivered, for to devour her child as soon as it was born.
+\goodbreak{}\vref{5}\nobreak{}And she brought forth a man child, who was to rule all nations with a rod of iron: and her child was caught up unto God, and to his throne.
+\gap{}\goodbreak{}\vref{7}\nobreak{}And there was war in heaven: Michael and his angels fought against the dragon; and the dragon fought and his angels,
+\goodbreak{}\vref{8}\nobreak{}And prevailed not; neither was their place found any more in heaven.
+\goodbreak{}\vref{9}\nobreak{}And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world: he was cast out into the earth, and his angels were cast out with him.
+\goodbreak{}\vref{10}\nobreak{}And I heard a loud voice saying in heaven, Now is come salvation, and strength, and the kingdom of our God, and the power of his Christ: for the accuser of our brethren is cast down, which accused them before our God day and night.
+\goodbreak{}\vref{11}\nobreak{}And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death.
+\gap{}\goodbreak{}\vref{13}\nobreak{}And when the dragon saw that he was cast unto the earth, he persecuted the woman which brought forth the man child.
+\gap{}\goodbreak{}\vref{17}\nobreak{}And the dragon was wroth with the woman, and went to make war with the remnant of her seed, which keep the commandments of God, and have the testimony of Jesus Christ.
+\goodbreak{}\vref{13:1}\nobreak{}And I stood upon the sand of the sea, and saw a beast rise up out of the sea, having seven heads and ten horns, and upon his horns ten crowns, and upon his heads the name of blasphemy.
+\gap{}\goodbreak{}\vref{3}\nobreak{}And I saw one of his heads as it were wounded to death; and his deadly wound was healed: and all the world wondered after the beast.
+\goodbreak{}\vref{4}\nobreak{}And they worshipped the dragon which gave power unto the beast: and they worshipped the beast, saying, Who is like unto the beast? who is able to make war with him?
+\gap{}\goodbreak{}\vref{6}\nobreak{}And he opened his mouth in blasphemy against God, to blaspheme his name, and his tabernacle, and them that dwell in heaven.
+\goodbreak{}\vref{7}\nobreak{}And it was given unto him to make war with the saints, and to overcome them: and power was given him over all kindreds, and tongues, and nations.
+\goodbreak{}\vref{8}\nobreak{}And all that dwell upon the earth shall worship him, whose names are not written in the book of life of the Lamb slain from the foundation of the world.
+\goodbreak{}\vref{9}\nobreak{}If any man have an ear, let him hear.
+\goodbreak{}\vref{10}\nobreak{}He that leadeth into captivity shall go into captivity: he that killeth with the sword must be killed with the sword. Here is the patience and the faith of the saints.
+
+\goodbreak{}\vref{19:6}\nobreak{}And I heard as it were the voice of a great multitude, and as the voice of many waters, and as the voice of mighty thunderings, saying, Alleluia: for the Lord God omnipotent reigneth.
+\goodbreak{}\vref{7}\nobreak{}Let us be glad and rejoice, and give honour to him: for the marriage of the Lamb is come, and his wife hath made herself ready.
+\goodbreak{}\vref{8}\nobreak{}And to her was granted that she should be arrayed in fine linen, clean and white: for the fine linen is the righteousness of saints.
+\gap{}\goodbreak{}\vref{11}\nobreak{}And I saw heaven opened, and behold a white horse; and he that sat upon him was called Faithful and True, and in righteousness he doth judge and make war.
+\gap{}\goodbreak{}\vref{13}\nobreak{}And he was clothed with a vesture dipped in blood: and his name is called The Word of God.
+\gap{}\goodbreak{}\vref{15}\nobreak{}And out of his mouth goeth a sharp sword, that with it he should smite the nations: and he shall rule them with a rod of iron: and he treadeth the winepress of the fierceness and wrath of Almighty God.
+\goodbreak{}\vref{16}\nobreak{}And he hath on his vesture and on his thigh a name written, KING OF KINGS, AND LORD OF LORDS.
+\gap{}\goodbreak{}\vref{19}\nobreak{}And I saw the beast, and the kings of the earth, and their armies, gathered together to make war against him that sat on the horse, and against his army.
+\goodbreak{}\vref{20}\nobreak{}And the beast was taken, and with him the false prophet that wrought miracles before him, with which he deceived them that had received the mark of the beast, and them that worshipped his image. These both were cast alive into a lake of fire burning with brimstone.
+\goodbreak{}\vref{21}\nobreak{}And the remnant were slain with the sword of him that sat upon the horse, which sword proceeded out of his mouth: and all the fowls were filled with their flesh.
+\gap{}\goodbreak{}\vref{20:11}\nobreak{}And I saw a great white throne, and him that sat on it, from whose face the earth and the heaven fled away; and there was found no place for them.
+\goodbreak{}\vref{12}\nobreak{}And I saw the dead, small and great, stand before God; and the books were opened: and another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works.
+\goodbreak{}\vref{13}\nobreak{}And the sea gave up the dead which were in it; and death and hell delivered up the dead which were in them: and they were judged every man according to their works.
+\goodbreak{}\vref{14}\nobreak{}And death and hell were cast into the lake of fire. This is the second death.
+\goodbreak{}\vref{15}\nobreak{}And whosoever was not found written in the book of life was cast into the lake of fire.
+
+\goodbreak{}\vref{21:1}\nobreak{}And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea.
+\goodbreak{}\vref{2}\nobreak{}And I John saw the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband.
+\goodbreak{}\vref{3}\nobreak{}And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God.
+\goodbreak{}\vref{4}\nobreak{}And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.
+\goodbreak{}\vref{5}\nobreak{}And he that sat upon the throne said, Behold, I make all things new. And he said unto me, Write: for these words are true and faithful.
+\goodbreak{}\vref{6}\nobreak{}And he said unto me, It is done. I am Alpha and Omega, the beginning and the end. I will give unto him that is athirst of the fountain of the water of life freely.
+\goodbreak{}\vref{7}\nobreak{}He that overcometh shall inherit all things; and I will be his God, and he shall be my son.
+\goodbreak{}\vref{8}\nobreak{}But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.
+\gap{}\goodbreak{}\vref{10}\nobreak{}And he carried me away in the spirit to a great and high mountain, and shewed me that great city, the holy Jerusalem, descending out of heaven from God,
+\goodbreak{}\vref{11}\nobreak{}Having the glory of God: and her light was like unto a stone most precious, even like a jasper stone, clear as crystal;
+\gap{}\goodbreak{}\vref{22}\nobreak{}And I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it.
+\goodbreak{}\vref{23}\nobreak{}And the city had no need of the sun, neither of the moon, to shine in it: for the glory of God did lighten it, and the Lamb is the light thereof.
+\gap{}\goodbreak{}\vref{22:1}\nobreak{}And he shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb.
+\goodbreak{}\vref{2}\nobreak{}In the midst of the street of it, and on either side of the river, was there the tree of life, which bare twelve manner of fruits, and yielded her fruit every month: and the leaves of the tree were for the healing of the nations.
+\goodbreak{}\vref{3}\nobreak{}And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him:
+\goodbreak{}\vref{4}\nobreak{}And they shall see his face; and his name shall be in their foreheads.
+\goodbreak{}\vref{5}\nobreak{}And there shall be no night there; and they need no candle, neither light of the sun; for the Lord God giveth them light: and they shall reign for ever and ever.
+\goodbreak{}\vref{6}\nobreak{}And he said unto me, These sayings are faithful and true: and the Lord God of the holy prophets sent his angel to shew unto his servants the things which must shortly be done.
+\gap{}\goodbreak{}\vref{16}\nobreak{}I Jesus have sent mine angel to testify unto you these things in the churches. I am the root and the offspring of David, and the bright and morning star.
+\goodbreak{}\vref{17}\nobreak{}And the Spirit and the bride say, Come. And let him that heareth say, Come. And let him that is athirst come. And whosoever will, let him take the water of life freely.
+\gap{}\goodbreak{}\vref{20}\nobreak{}He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus.
+
+\end{document}
