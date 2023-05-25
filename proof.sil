@@ -23,7 +23,6 @@
 \language[main=en]
 
 \set-counter[id=folio,value=1,display=roman]
-
 \tableofcontents
 \break
 
@@ -153,9 +152,9 @@
 \goodbreak{}\vref{13}\nobreak{}And Cain said unto the LORD, My punishment is greater than I can bear.
 \goodbreak{}\vref{14}\nobreak{}Behold, thou hast driven me out this day from the face of the earth; and from thy face shall I be hid; and I shall be a fugitive and a vagabond in the earth; and it shall come to pass, that every one that findeth me shall slay me.
 \goodbreak{}\vref{15}\nobreak{}And the LORD said unto him, Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold. And the LORD set a mark upon Cain, lest any finding him should kill him.
-\goodbreak{}\vref{16}\nobreak{}And Cain went out from the presence of the LORD, and dwelt in the land of Nod, on the east of Eden.
+\goodbreak{}\vref{16}\nobreak{}And Cain went out from the presence of the LORD, and dwelt in the land of Nod, on the east of Eden.\gap{}
 
-\gap{}\goodbreak{}\vref{25}\nobreak{}And Adam knew his wife again; and she bare a son, and called his name Seth: For God, said she, hath appointed me another seed instead of Abel, whom Cain slew.
+\goodbreak{}\vref{25}\nobreak{}And Adam knew his wife again; and she bare a son, and called his name Seth: For God, said she, hath appointed me another seed instead of Abel, whom Cain slew.
 \goodbreak{}\vref{26}\nobreak{}And to Seth, to him also there was born a son; and he called his name Enos: then began men to call upon the name of the LORD.
 
 \tocentry[level=1, number=3]{Judgment & Preservation}
@@ -166,9 +165,9 @@
 \goodbreak{}\vref{7}\nobreak{}And the LORD said, I will destroy man whom I have created from the face of the earth; both man, and beast, and the creeping thing, and the fowls of the air; for it repenteth me that I have made them.
 \goodbreak{}\vref{8}\nobreak{}But Noah found grace in the eyes of the LORD.
 \goodbreak{}\vref{9}\nobreak{}These are the generations of Noah: Noah was a just man and perfect in his generations, and Noah walked with God.
-\goodbreak{}\vref{10}\nobreak{}And Noah begat three sons, Shem, Ham, and Japheth.
+\goodbreak{}\vref{10}\nobreak{}And Noah begat three sons, Shem, Ham, and Japheth.\gap{}
 
-\gap{}\goodbreak{}\vref{13}\nobreak{}And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth.
+\goodbreak{}\vref{13}\nobreak{}And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth.
 \goodbreak{}\vref{14}\nobreak{}Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch.
 \goodbreak{}\vref{15}\nobreak{}And this is the fashion which thou shalt make it of: The length of the ark shall be three hundred cubits, the breadth of it fifty cubits, and the height of it thirty cubits.
 \goodbreak{}\vref{16}\nobreak{}A window shalt thou make to the ark, and in a cubit shalt thou finish it above; and the door of the ark shalt thou set in the side thereof; with lower, second, and third stories shalt thou make it.
@@ -415,7 +414,7 @@
 \goodbreak{}\vref{41}\nobreak{}And it came to pass at the end of the four hundred and thirty years, even the selfsame day it came to pass, that all the hosts of the LORD went out from the land of Egypt.
 \goodbreak{}\vref{42}\nobreak{}It is a night to be much observed unto the LORD for bringing them out from the land of Egypt: this is that night of the LORD to be observed of all the children of Israel in their generations.
 
-\tocentry[level=1, number=6]{Kings & Prophets}
+\tocentry[level=1, number=7]{Kings & Prophets}
 \heading{Kings & Prophets}
 
 \goodbreak{}\vref{Act 7:37}\nobreak{}This is that Moses, which said unto the children of Israel, A prophet shall the Lord your God raise up unto you of your brethren, like unto me; him shall ye hear.
@@ -516,7 +515,7 @@
 \goodbreak{}\vref{3}\nobreak{}Therefore will he give them up, until the time that she which travaileth hath brought forth: then the remnant of his brethren shall return unto the children of Israel.
 \goodbreak{}\vref{4}\nobreak{}And he shall stand and feed in the strength of the LORD, in the majesty of the name of the LORD his God; and they shall abide: for now shall he be great unto the ends of the earth.
 
-\tocentry[level=1, number=6]{Exiles & Remnant}
+\tocentry[level=1, number=8]{Exiles & Remnant}
 \heading{Exiles & Remnant}
 
 \goodbreak{}\vref{Ps 106:4}\nobreak{}Remember me, O LORD, with the favour that thou bearest unto thy people: O visit me with thy salvation;
@@ -591,7 +590,7 @@
 \goodbreak{}\vref{4}\nobreak{}Remember ye the law of Moses my servant, which I commanded unto him in Horeb for all Israel, with the statutes and judgments.
 \goodbreak{}\vref{5}\nobreak{}Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:
 
-\tocentry[level=1, number=6]{Heralds & Handmaids}
+\tocentry[level=1, number=9]{Heralds & Handmaids}
 \heading{Heralds & Handmaids}
 
 \goodbreak{}\vref{Lk 1:5}\nobreak{}THERE was in the days of Herod, the king of Judaea, a certain priest named Zacharias, of the course of Abia: and his wife was of the daughters of Aaron, and her name was Elisabeth.
@@ -663,7 +662,7 @@
 \goodbreak{}\vref{79}\nobreak{}To give light to them that sit in darkness and in the shadow of death, to guide our feet into the way of peace.
 \goodbreak{}\vref{80}\nobreak{}And the child grew, and waxed strong in spirit, and was in the deserts till the day of his shewing unto Israel.
 
-\tocentry[level=1, number=6]{Birth & Childhood}
+\tocentry[level=1, number=10]{Birth & Childhood}
 \heading{Birth & Childhood}
 
 \goodbreak{}\vref{2:1}\nobreak{}And it came to pass in those days, that there went out a decree from Caesar Augustus that all the world should be taxed.
@@ -730,7 +729,7 @@
 \goodbreak{}\vref{22}\nobreak{}But when he heard that Archelaus did reign in Judaea in the room of his father Herod, he was afraid to go thither: notwithstanding, being warned of God in a dream, he turned aside into the parts of Galilee:
 \goodbreak{}\vref{23}\nobreak{}And he came and dwelt in a city called Nazareth: that it might be fulfilled which was spoken by the prophets, He shall be called a Nazarene.
 
-\tocentry[level=1, number=6]{Testing & Teaching}
+\tocentry[level=1, number=11]{Testing & Teaching}
 \heading{Testing & Teaching}
 
 \goodbreak{}\vref{3:1}\nobreak{}In those days came John the Baptist, preaching in the wilderness of Judaea,
@@ -877,7 +876,7 @@
 \goodbreak{}\vref{52}\nobreak{}And not for that nation only, but that also he should gather together in one the children of God that were scattered abroad.
 \goodbreak{}\vref{53}\nobreak{}Then from that day forth they took counsel together for to put him to death.\gap{}
 
-\tocentry[level=1, number=6]{Treachery & Triumph}
+\tocentry[level=1, number=12]{Treachery & Triumph}
 \heading{Treachery & Triumph}
 
 \goodbreak{}\vref{12:12}\nobreak{}On the next day much people that were come to the feast, when they heard that Jesus was coming to Jerusalem,
@@ -993,7 +992,7 @@
 \goodbreak{}\vref{11}\nobreak{}Which also said, Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven.
 \goodbreak{}\vref{12}\nobreak{}Then returned they unto Jerusalem from the mount called Olivet, which is from Jerusalem a sabbath day's journey.
 
-\tocentry[level=1, number=6]{Power & Preaching}
+\tocentry[level=1, number=13]{Power & Preaching}
 \heading{Power & Preaching}
 
 \goodbreak{}\vref{2:1}\nobreak{}And when the day of Pentecost was fully come, they were all with one accord in one place.
@@ -1103,8 +1102,8 @@
 \goodbreak{}\vref{26}\nobreak{}And thence sailed to Antioch, from whence they had been recommended to the grace of God for the work which they fulfilled.
 \goodbreak{}\vref{27}\nobreak{}And when they were come, and had gathered the church together, they rehearsed all that God had done with them, and how he had opened the door of faith unto the Gentiles.
 
-\tocentry[level=1, number=6]{Encouragement & Eternity}
-\heading{Encouragement & Eternity}
+\tocentry[level=1, number=14]{Judgment & Eternity}
+\heading{Judgment & Eternity}
 
 \goodbreak{}\vref{Rev 1:1}\nobreak{}The Revelation of Jesus Christ, which God gave unto him, to shew unto his servants things which must shortly come to pass; and he sent and signified it by his angel unto his servant John:
 \goodbreak{}\vref{2}\nobreak{}Who bare record of the word of God, and of the testimony of Jesus Christ, and of all things that he saw.
@@ -1143,6 +1142,7 @@
 \gap{}\goodbreak{}\vref{7}\nobreak{}And there was war in heaven: Michael and his angels fought against the dragon; and the dragon fought and his angels,
 \goodbreak{}\vref{8}\nobreak{}And prevailed not; neither was their place found any more in heaven.
 \goodbreak{}\vref{9}\nobreak{}And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world: he was cast out into the earth, and his angels were cast out with him.
+
 \goodbreak{}\vref{10}\nobreak{}And I heard a loud voice saying in heaven, Now is come salvation, and strength, and the kingdom of our God, and the power of his Christ: for the accuser of our brethren is cast down, which accused them before our God day and night.
 \goodbreak{}\vref{11}\nobreak{}And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death.
 \gap{}\goodbreak{}\vref{13}\nobreak{}And when the dragon saw that he was cast unto the earth, he persecuted the woman which brought forth the man child.
@@ -1162,8 +1162,9 @@
 \gap{}\goodbreak{}\vref{11}\nobreak{}And I saw heaven opened, and behold a white horse; and he that sat upon him was called Faithful and True, and in righteousness he doth judge and make war.
 \gap{}\goodbreak{}\vref{13}\nobreak{}And he was clothed with a vesture dipped in blood: and his name is called The Word of God.
 \gap{}\goodbreak{}\vref{15}\nobreak{}And out of his mouth goeth a sharp sword, that with it he should smite the nations: and he shall rule them with a rod of iron: and he treadeth the winepress of the fierceness and wrath of Almighty God.
-\goodbreak{}\vref{16}\nobreak{}And he hath on his vesture and on his thigh a name written, KING OF KINGS, AND LORD OF LORDS.
-\gap{}\goodbreak{}\vref{19}\nobreak{}And I saw the beast, and the kings of the earth, and their armies, gathered together to make war against him that sat on the horse, and against his army.
+\goodbreak{}\vref{16}\nobreak{}And he hath on his vesture and on his thigh a name written, KING OF KINGS, AND LORD OF LORDS.\gap{}
+
+\goodbreak{}\vref{19}\nobreak{}And I saw the beast, and the kings of the earth, and their armies, gathered together to make war against him that sat on the horse, and against his army.
 \goodbreak{}\vref{20}\nobreak{}And the beast was taken, and with him the false prophet that wrought miracles before him, with which he deceived them that had received the mark of the beast, and them that worshipped his image. These both were cast alive into a lake of fire burning with brimstone.
 \goodbreak{}\vref{21}\nobreak{}And the remnant were slain with the sword of him that sat upon the horse, which sword proceeded out of his mouth: and all the fowls were filled with their flesh.
 \gap{}\goodbreak{}\vref{20:11}\nobreak{}And I saw a great white throne, and him that sat on it, from whose face the earth and the heaven fled away; and there was found no place for them.
@@ -1179,8 +1180,9 @@
 \goodbreak{}\vref{5}\nobreak{}And he that sat upon the throne said, Behold, I make all things new. And he said unto me, Write: for these words are true and faithful.
 \goodbreak{}\vref{6}\nobreak{}And he said unto me, It is done. I am Alpha and Omega, the beginning and the end. I will give unto him that is athirst of the fountain of the water of life freely.
 \goodbreak{}\vref{7}\nobreak{}He that overcometh shall inherit all things; and I will be his God, and he shall be my son.
-\goodbreak{}\vref{8}\nobreak{}But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.
-\gap{}\goodbreak{}\vref{10}\nobreak{}And he carried me away in the spirit to a great and high mountain, and shewed me that great city, the holy Jerusalem, descending out of heaven from God,
+\goodbreak{}\vref{8}\nobreak{}But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.\gap{}
+
+\goodbreak{}\vref{10}\nobreak{}And he carried me away in the spirit to a great and high mountain, and shewed me that great city, the holy Jerusalem, descending out of heaven from God,
 \goodbreak{}\vref{11}\nobreak{}Having the glory of God: and her light was like unto a stone most precious, even like a jasper stone, clear as crystal;
 \gap{}\goodbreak{}\vref{22}\nobreak{}And I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it.
 \goodbreak{}\vref{23}\nobreak{}And the city had no need of the sun, neither of the moon, to shine in it: for the glory of God did lighten it, and the Lamb is the light thereof.
