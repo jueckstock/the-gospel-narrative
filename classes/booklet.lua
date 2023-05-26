@@ -5,8 +5,8 @@ booklet._name = "booklet"
 booklet.defaultFrameset = {
   content = {
     top = "5%ph",
-    left = "8%pw",
-    right = "92%pw",
+    left = "0.8in",
+    right = "width(page) - 0.8in",
     bottom = "93%ph"
   },
   folio = {
