@@ -1,23 +1,70 @@
 \begin[papersize=statement, class=booklet]{document}
 
+\use[module=packages.frametricks]
+\use[module=packages.rules]
+
 \font[size=10pt]
 \language[main=en]
 
-\set-counter[id=folio,value=1,display=roman]
-\tocentry[level=1, number=0]{Contents}
+
+% title page
+\begin[first-content-frame=titleFrame]{pagetemplate}
+  \frame[id=titleFrame, top=top(content)+height(content)*.5 - 1.5in, left=left(content), right=right(content), height=1.5in]
+  \frame[id=subtitleFrame, top=bottom(titleFrame), left=left(titleFrame)+.5in, right=right(titleFrame)-.5in, bottom=top(footerBox)-10%ph]
+  \frame[id=footerBox, top=bottom(content)-15%ph, left=left(titleFrame), right=right(titleFrame), bottom=bottom(content)-5%ph]
+\end{pagetemplate}
+
+\nofoliothispage
+\begin[frame=titleFrame]{typeset-into}
+  \par\noindent
+  \font[size=24]{\hfill That They Might Have\hfill}
+  \smallskip
+  \par\noindent
+  \fullrule
+  \par\noindent
+  \font[size=72]{L \hfill I \hfill F \hfill E}
+  \par\noindent
+  \fullrule
+\end{typeset-into}
+\begin[frame=subtitleFrame]{typeset-into}
+  \medskip
+  \begin{center}
+    \par\noindent
+    \font[size=14pt, style=italic]{The Gospel from Creation to Eternity in 1,000 verses from Genesis to Revelation}
+  \end{center}
+\end{typeset-into}
+\begin[frame=footerBox]{typeset-into}
+  \begin{raggedright}
+    \par\noindent
+    \begin[size=12pt]{font}
+      The thief cometh not, but for to steal, and to kill, and to destroy: I am come that they might have life, and that they might have it more abundantly.
+    \end{font}
+    \medskip
+  \end{raggedright}
+  \raggedleft{John 10:10}
+\end{typeset-into}
+\pagebreak
+
+
+% blank page
+\nofoliothispage
+\pagebreak
+
+% TOC page
+%\tocentry[level=1, number=0]{Contents}
 \tableofcontents
-\break
+\nofoliothispage
+\pagebreak
 
 \set-counter[id=folio,value=1,display=arabic]
 
-\par
+% prologue page
 \noindent
 \begin{center}
   \font[size=18pt]
   \em{Prologue}
 \end{center}
 \medskip
-
 \begin{raggedright}
 \begin{em}
 \goodbreak{}\vref{Ps 2:1}\nobreak{}Why do the heathen rage, and the people imagine a vain thing?
@@ -34,6 +81,7 @@
 \goodbreak{}\vref{12}\nobreak{}Kiss the Son, lest he be angry, and ye perish from the way, when his wrath is kindled but a little. Blessed are all they that put their trust in him.
 \end{em}
 \end{raggedright}
+
 
 %\tocentry[level=1, number=1]{Creation & Blessing}
 %\heading{Creation & Blessing}
